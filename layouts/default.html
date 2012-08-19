@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title><%= @item[:title] %> The Approachable Geek</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
+  </head>
+  <body>
+    <div id="main">
+    <%= yield %>
+    </div>
+    <div id="sidebar">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/who">Who is The Approachable Geek</a></li>
+        <li><a href="/what">What does he do</a></li>
+        <li><a href="/hire">Hire him</a></li>
+        <li><a href="/blog">Blog</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

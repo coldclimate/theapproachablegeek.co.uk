@@ -1,0 +1,12 @@
+---
+kind: article
+created_at: "2012-06-22"
+title: A return to energy monitoring
+---
+A year ago I wrote about using my Wattson to track my house energy monitoring. This week I finally got enough time to update my setup. My previous setup worked but involved some slightly ropey scripts. I’ve upgraded.  I’ve switched to using rrdwattson which uses rdd, the same technology that’s used for tracking server statistics.
+
+One of the bonuses is my dodgy homerolled graphs are a thing of the past, behold my new shiny new daily, weekly, monthly and yearly graphs is all their splender, now updated every 5 minutes.
+
+
+
+
