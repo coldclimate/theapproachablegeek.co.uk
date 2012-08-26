@@ -9,9 +9,19 @@
     <meta name="generator" content="nanoc 3.4.0"> 
   </head>
   <body>
+    <nav id="tabs">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/who">Who is The Approachable Geek</a></li>
+        <li><a href="/what">What do I do</a></li>
+        <li><a href="/hire">Hire me</a></li>
+        <li><a href="/blog">Blog</a></li>
+      </ul>
+    </nav>
+
     <div id="main">
     <h1><a href="/blog/shopify-css/">An oddity when working with JavaScript in Shopify themes</a></h1>
- <p class="created_at">2011-08-26</p>
+ <p class="created_at">August 26, 2011</p>
  <p>Recently I’ve been doing quite a bit of work turning packs of HTML and CSS into <a href="http://www.shopify.com/">Shopify</a> themes.  Shopify is an amazing “Shop as a Service” website which makes it really easy to get your online shop up and running quickly letting Shopify handle all the hard bits (scaling, the CMS, payments etc).</p>
 
 <p>What makes Shopify really impressive is you can write (or buy) themes for your shop which are extreamly customisable.  The functional logical of the templates if written in a language called Liquid.  At first <a href="http://www.liquidmarkup.org/">Liquid</a> looks clunky but it’s actually very powerful when used in combination with Shopify’s available data.</p>
@@ -36,14 +46,23 @@
 <p>The moral of the story, separation of presentation and content is important.</p>
 
     </div>
-    <div id="sidebar">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/who">Who is The Approachable Geek</a></li>
-        <li><a href="/what">What does he do</a></li>
-        <li><a href="/hire">Hire him</a></li>
-        <li><a href="/blog">Blog</a></li>
-      </ul>
-    </div>
+
+    <footer>
+    <!-- something here-->
+    </footer>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4150109-19']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
   </body>
 </html>

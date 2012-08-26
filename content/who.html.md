@@ -8,6 +8,6 @@ Before setting out on my own I spent 2 years at The BGroup in Newcastle heading 
 
 Prior to gainful employment I spent four years at Durham University leaving with a Masters in Computer Science and a trail of websites and involvement with my college.
 
-Before university I built websites for a glass company in the late 90’s, you can find my employment history and hopefully a few nice words about me, on my [LinkedIn profile](http://www.linkedin.com/in/oliwoo).
+Before university I built websites for a glass company in the late 90’s, you can find my employment history and hopefully a few nice words about me, on my [LinkedIn profile](http://www.linkedin.com/in/oliwood).
 
 I was born and raised in Cumbria, and outside of work can normally be found listening to Radio 4 in the kitchen.
