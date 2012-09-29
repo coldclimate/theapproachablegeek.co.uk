@@ -1,23 +1,40 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Technical advice for Bizpond.co.uk The Approachable Geek</title>
-    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <link href="/_assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/_assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.0"> 
   </head>
   <body>
-    <nav id="tabs">
-      <ul>
-        <li><a href="/">The Approachable Geek</a></li>
-        <li><a href="/hire">Hire me</a></li>
-        <li><a href="/blog">Blog</a></li>
-      </ul>
-    </nav>
-
-    <div id="main">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="/">The Approachable Geek</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li>
+                <a href="/hire">Hire me</a>
+              </li>
+              <li>
+                <a href="/blog">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  <div id="main" class="row">
+    <div class="span1"></div>
+    <div class="span10">
     <h1><a href="/blog/bizpond/">Technical advice for Bizpond.co.uk</a></h1>
  <p class="created_at">July 14, 2010</p>
  <p><a href="http://www.bizpond.co.uk/">Bizpond.co.uk</a> is a simple idea to help less technical businesses find benefit from services such as Twitter and the communities that form around them.</p>
@@ -33,12 +50,21 @@ One of the aims of Bizpond was to make use of as many external services as possi
   <li><a href="http://analytics.google.com/">Google Analytics</a> : is used to track not only page views but other key performance indicators. Adding Analytics to a website is trivial, but without some additional configuration and code it will not necessarily track the things that you need it to. Bizpond needed to know how many of it’s notices with being replied to, and how many were being shared, both of which would not have been tracked by default. The Approachable Geek was able to match business requirements to code hooks, as well as deliver the on site training for the administrator on how to extract the gems from the wealth of info that GA provides.</li>
 </ul>
 
-    </div>
+  </div>
+  <div class="span1"></div>
+  </div>  
 
-    <footer id="footer">
+  
+    <footer id="footer" class="row">
+      <div class="span1"></div>
+      <div class="span10">
     <p>Built with <a href="http://nanoc.stoneship.org/">Nanoc</a>, <a href="http://www.sublimetext.com/2">Sublime Text2</a> and coffee</p>
+  </div>
+    <div class="span1"></div>
     </footer>
-    <script type="text/javascript">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="/_assets/js/bootstrap.min.js"/>
+<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-4150109-19']);

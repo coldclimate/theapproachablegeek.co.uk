@@ -1,23 +1,40 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>A return to energy monitoring The Approachable Geek</title>
-    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <link href="/_assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/_assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.0"> 
   </head>
   <body>
-    <nav id="tabs">
-      <ul>
-        <li><a href="/">The Approachable Geek</a></li>
-        <li><a href="/hire">Hire me</a></li>
-        <li><a href="/blog">Blog</a></li>
-      </ul>
-    </nav>
-
-    <div id="main">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="/">The Approachable Geek</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li>
+                <a href="/hire">Hire me</a>
+              </li>
+              <li>
+                <a href="/blog">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  <div id="main" class="row">
+    <div class="span1"></div>
+    <div class="span10">
     <h1><a href="/blog/energy-monitoring-2/">A return to energy monitoring</a></h1>
  <p class="created_at">June 22, 2012</p>
  <p>A year ago I wrote about using my Wattson to track my house energy monitoring. This week I finally got enough time to update my setup. My previous setup worked but involved some slightly ropey scripts. I’ve upgraded.  I’ve switched to using <a href="http://pikarinen.com/rrdwattsond/">rrdwattson</a> which uses <a href="http://oss.oetiker.ch/rrdtool/">rdd</a>, the same technology that’s used for tracking server statistics.</p>
@@ -29,12 +46,21 @@
 <img src="/graphs/energy-1month.png" alt="A month of energy usage" title="A day of month usage" />
 <img src="/graphs/energy-1year.png" alt="A year of energy usage" title="A day of year usage" /></p>
 
-    </div>
+  </div>
+  <div class="span1"></div>
+  </div>  
 
-    <footer id="footer">
+  
+    <footer id="footer" class="row">
+      <div class="span1"></div>
+      <div class="span10">
     <p>Built with <a href="http://nanoc.stoneship.org/">Nanoc</a>, <a href="http://www.sublimetext.com/2">Sublime Text2</a> and coffee</p>
+  </div>
+    <div class="span1"></div>
     </footer>
-    <script type="text/javascript">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="/_assets/js/bootstrap.min.js"/>
+<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-4150109-19']);

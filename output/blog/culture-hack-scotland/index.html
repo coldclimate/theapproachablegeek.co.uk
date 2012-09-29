@@ -1,23 +1,40 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Culture Hack Scotland The Approachable Geek</title>
-    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <link href="/_assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/_assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.0"> 
   </head>
   <body>
-    <nav id="tabs">
-      <ul>
-        <li><a href="/">The Approachable Geek</a></li>
-        <li><a href="/hire">Hire me</a></li>
-        <li><a href="/blog">Blog</a></li>
-      </ul>
-    </nav>
-
-    <div id="main">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="/">The Approachable Geek</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li>
+                <a href="/hire">Hire me</a>
+              </li>
+              <li>
+                <a href="/blog">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  <div id="main" class="row">
+    <div class="span1"></div>
+    <div class="span10">
     <h1><a href="/blog/culture-hack-scotland/">Culture Hack Scotland</a></h1>
  <p class="created_at">May 10, 2011</p>
  <p><a href="http://en.wikipedia.org/wiki/Hack_Day">Hack Days</a>, like <a href="http://en.wikipedia.org/wiki/BarCamp">BarCamps</a> before them, are a phenomenon that went through the geeky community like a dose of salts, and have then worked their way sideways into other communities. A hack day involves getting a bunch of people (coders, designers, ideas people, subject matter experts) together for a 24hour+ session, where they make things. Very often hack days will be themed around a subject, often related to their hosts. The hosts are often making a range of data or services available for people to built things with.</p>
@@ -38,12 +55,21 @@
 
 <p>Edit (6/6/2010) Some of the hack (including one based on the data I made available) made it into the Guardian Data Blog!</p>
 
-    </div>
+  </div>
+  <div class="span1"></div>
+  </div>  
 
-    <footer id="footer">
+  
+    <footer id="footer" class="row">
+      <div class="span1"></div>
+      <div class="span10">
     <p>Built with <a href="http://nanoc.stoneship.org/">Nanoc</a>, <a href="http://www.sublimetext.com/2">Sublime Text2</a> and coffee</p>
+  </div>
+    <div class="span1"></div>
     </footer>
-    <script type="text/javascript">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="/_assets/js/bootstrap.min.js"/>
+<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-4150109-19']);

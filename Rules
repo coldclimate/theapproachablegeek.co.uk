@@ -29,7 +29,13 @@ compile '/blog/*/' do
   layout 'default'
 end
 
-compile '*' do
+
+
+ compile '_assets/*' do
+  nil
+ end
+
+ compile '*' do
   if item.binary?
     # don’t filter binary items
   else
@@ -38,9 +44,9 @@ compile '*' do
   end
 end
 
-route '/stylesheet/' do
-  '/style.css'
-end
+   route '_assets/*' do
+     item.identifier.chop + '.' + item[:extension]
+   end
 
 route '*' do
   if item.binary?

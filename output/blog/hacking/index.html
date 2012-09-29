@@ -1,23 +1,40 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Hacking The Parliament The Approachable Geek</title>
-    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <link href="/_assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/_assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.0"> 
   </head>
   <body>
-    <nav id="tabs">
-      <ul>
-        <li><a href="/">The Approachable Geek</a></li>
-        <li><a href="/hire">Hire me</a></li>
-        <li><a href="/blog">Blog</a></li>
-      </ul>
-    </nav>
-
-    <div id="main">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="/">The Approachable Geek</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li>
+                <a href="/hire">Hire me</a>
+              </li>
+              <li>
+                <a href="/blog">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  <div id="main" class="row">
+    <div class="span1"></div>
+    <div class="span10">
     <h1><a href="/blog/hacking/">Hacking The Parliament</a></h1>
  <p class="created_at">November 9, 2011</p>
  <p>I’m just back from a weekend long trip to London where I took part in <a href="http://rewiredstate.org/events/parliament">Rewired State’s Parliament Hack</a>.  It was a really fun weekend, starting off with a guided trip round the House of Commons and House of Lords (smaller than they look and with amazing streampunk-like brass speakers embedded into the benches) and then it was all back to The Guardian’s offices for 36 hours of code and collaboration.  First up through a rallying cry from Lord Jim Knight who turns out to be a very throughful fellow.</p>
@@ -30,12 +47,21 @@
 
 <p>I won a prize for <a href="http://ohlordy.theapproachablegeek.co.uk/">Oh Lordy!</a> too, which was nice, and whilst presenting  UK Unemployment API found out that the thing I had built already exists in the form of <a href="http://www.nomisweb.co.uk/api/v01">NOMIS’s API</a>, and bloody good it is too.  Oh Lordy! also <a href="https://twitter.com/#!/jimpknight/status/133120837506170880">got tweeted about by Lord Knight</a> too, which was pretty cool.</p>
 
-    </div>
+  </div>
+  <div class="span1"></div>
+  </div>  
 
-    <footer id="footer">
+  
+    <footer id="footer" class="row">
+      <div class="span1"></div>
+      <div class="span10">
     <p>Built with <a href="http://nanoc.stoneship.org/">Nanoc</a>, <a href="http://www.sublimetext.com/2">Sublime Text2</a> and coffee</p>
+  </div>
+    <div class="span1"></div>
     </footer>
-    <script type="text/javascript">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="/_assets/js/bootstrap.min.js"/>
+<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-4150109-19']);

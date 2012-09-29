@@ -1,9 +1,6 @@
 --- 
-title:
+title: The Approachable Geek
 ---
-
-The Approachable Geek
----------------------
 
 I’m Oli Wood and I'm a consultant and coder available for hire, primarily working in PHP and Javascript.  I've been working with technology since 1998 and have worked on projects ranging from two man bootstrapped start-ups to multi-million pound government projects.
 
