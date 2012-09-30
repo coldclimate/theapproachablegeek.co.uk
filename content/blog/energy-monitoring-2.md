@@ -7,10 +7,10 @@ A year ago I wrote about using my Wattson to track my house energy monitoring. T
 
 One of the bonuses is my dodgy homerolled graphs are a thing of the past, behold my new shiny new daily, weekly, monthly and yearly graphs is all their splender, now updated every 5 minutes.
 
-![A day of energy usage](/graphs/energy.png "A day of energy usage")
-![A week of energy usage](/graphs/energy-1week.png "A day of week usage")
-![A month of energy usage](/graphs/energy-1month.png "A day of month usage")
-![A year of energy usage](/graphs/energy-1year.png "A day of year usage")
+![A day of energy usage](/graphs/wattson/energy.png "A day of energy usage")
+![A week of energy usage](/graphs/wattson/energy-1week.png "A day of week usage")
+![A month of energy usage](/graphs/wattson/energy-1month.png "A day of month usage")
+![A year of energy usage](/graphs/wattson/energy-1year.png "A day of year usage")
 
 
 
