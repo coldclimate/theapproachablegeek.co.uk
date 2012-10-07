@@ -35,6 +35,14 @@ end
   nil
  end
 
+ compile 'sitemap' do
+  filter :haml
+end
+
+route 'sitemap' do
+  item.identifier.chop + '.xml'
+end
+
  compile '*' do
   if item.binary?
     # don’t filter binary items
@@ -57,5 +65,7 @@ route '*' do
     item.identifier + 'index.html'
   end
 end
+
+
 
 layout '*', :erb
