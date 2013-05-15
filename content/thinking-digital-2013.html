@@ -1,0 +1,93 @@
+<canvas id="c"></canvas>
+<script>
+  	var canvas = document.getElementById("c");
+  	  	canvas.width  = window.innerWidth;
+    	canvas.height = window.innerHeight;
+
+
+  	var context = canvas.getContext("2d");
+
+  	getRandom = function(minimum, maximum){
+  		var gap = maximum - minimum;
+  		var middle = ((maximum - minimum)/2)+minimum;
+  		return Math.floor(minimum+(Math.random()*gap));
+  	}
+
+
+  	sparkle = function(startX, startY, startSize){
+  		var x = startX;
+  		var y = startY;
+  		var size = startSize;
+  		var xSpeed = getRandom(-5,5);
+  		var ySpeed = getRandom(-5,5);
+  		var myColour = "rgba("+getRandom(0,255)+","+getRandom(0,255)+","+getRandom(0,255)+",255)";
+  		return {
+  		 	draw : function(){
+  				context.fillStyle = myColour;
+
+        // Character
+  			//context.font = "bold 48px sans-serif";
+				//context.fillText("O", x, y);
+  				
+  			// Square
+  			 context.fillRect(x, y, size, size);
+
+       
+  			},
+  			update : function(){
+  				x = x + xSpeed;
+  				y = y + ySpeed;
+
+  				// rolled over the right hand side
+  				if ( x >= canvas.width){
+  					x = 1;
+  				}
+
+  				// rolled over the left hand side
+  				if (x <= 0 ) {
+  					x = canvas.width -1;
+  				}
+
+  				// gone off the bottom
+  				if ( y >= canvas.height){
+  					y = 1;
+  				}
+
+  				// gone off the top
+  				if (y <= 0 ) {
+  					y = canvas.height -1;
+  				}
+  			}
+  		}
+
+  	}
+
+  	var arraySparkles = [];
+  	var numberOfSparkles = 50;
+
+	for (var count=0; count<numberOfSparkles; count++)
+  		{
+ 			arraySparkles.push(new sparkle(	canvas.width/2,
+ 											canvas.height/2,
+ 											30));
+  		}
+ 
+ 	function clearCanvas(){
+ 		context.clearRect(0, 0, canvas.width, canvas.height);
+ 	}
+
+  	function updateAnimations(){
+  		clearCanvas();
+    for (var count=0; count<numberOfSparkles; count++)
+  		{
+ 			arraySparkles[count].draw();
+    		arraySparkles[count].update();
+  		}
+    
+    }
+
+    setInterval(updateAnimations, 3);
+
+   
+
+  </script>
