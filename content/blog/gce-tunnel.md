@@ -9,7 +9,7 @@ All interactions with your Instances (boxes) is through the gcutil program, whic
 
 One thing gcutil does not natively support is tunneling, but luckily you can spot all the bits you need and reproduce is using bog standed SSH.
 
-    ssh -L 12345:localhost:15672 -o UserKnownHostsFile=/dev/null -o CheckHostIP=no -o StrictHostKeyChecking=no -i /Users/me/.ssh/google_compute_engine -A -p 22 ubuntu@1.2.3.4
+    ssh -L 12345:localhost:15672 -o UserKnownHostsFile=/dev/null -o CheckHostIP=no -o StrictHostKeyChecking=no -i ~/.ssh/google_compute_engine -A -p 22 ubuntu@1.2.3.4
 
  This produces a tunnel from your local machine to the remote Instance (1.2.3.4), running a tunnel from localhost port 12345 to the remote host port 15672 (RabbitMQ management console in our case).
 
