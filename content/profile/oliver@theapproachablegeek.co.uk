@@ -1,0 +1,17 @@
+{
+  "subject": "acct:oliver@theapproachablegeek.co.uk",
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/avatar",
+      "href": "http://theapproachablegeek.co.uk/_assets/images/oliver.jpeg"
+    },
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "href": "http://theapproachablegeek.co.uk/"
+    },
+    {
+      "rel": "me",
+      "href": "http://theapproachablegeek.co.uk/"
+    }
+  ]
+}

@@ -17,6 +17,15 @@ compile '/stylesheet/' do
   # don’t filter or layout
 end
 
+compile '/stylesheet/' do
+  # don’t filter or layout
+end
+
+# Sitemap and htaccess do get filtered with erb, but get no layout.
+compile %r{^/(sitemap|htaccess)/$} do
+  filter :erb
+end
+
 compile 'blog' do
     filter :erb
     layout 'default'
@@ -29,18 +38,16 @@ compile '/blog/*/' do
   layout 'default'
 end
 
-
-
- compile '_assets/*' do
+compile '_assets/*' do
   nil
- end
-
- compile 'sitemap' do
-  filter :haml
 end
 
-route 'sitemap' do
-  item.identifier.chop + '.xml'
+compile 'profile/*' do
+  nil
+end
+
+route '/htaccess/' do
+  '/.htaccess'
 end
 
  compile '*' do
