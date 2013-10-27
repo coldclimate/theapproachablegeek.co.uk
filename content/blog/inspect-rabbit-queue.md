@@ -1,7 +1,7 @@
 ---
 kind: article
 created_at: "2013-10-27"
-title: Inspecting messages in a RabbitMQ queue, gheto style
+title: Inspecting messages in a RabbitMQ queue, ghetto style
 ---
 There are probably a lot of much better ways to do this, but recently we needed to get at a couple of messages in a  [RabbitMQ](http://www.rabbitmq.com/) queue.  It's a dead letter queue and we'll built a better tool to process it's messages at some point, but right now we just needed to get hold of one of the messages in it, without removing them all (and loosing them).
 
