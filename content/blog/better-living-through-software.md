@@ -41,5 +41,8 @@ Note: the Thread link above means you and I get a fiver off if you join.
 
 We get a [fantastic meatbox](http://www.gandsorganics.com/) delivered once a month from a local farmer which is excellent, but shopping for other things is a bit of a pain.  Supermarkets are designed to make you buy more things, so goignt here cost you more money.
 
-Step in the [ASDA app](https://play.google.com/store/apps/details?id=com.asda.android&hl=en_GB).  The basket doesn't seem to time out, so as we run out of things or as I'm planning the weeks food I add items to the basket and then checkout once I'm ready.  Rather than booking a home delivery slot I choose the "click and collect" option which means that I can drop in on my way home and it's all ready to go.
+Step in the [ASDA app](https://play.google.com/store/apps/details?id=com.asda.android&hl=en_GB).  The basket doesn't seem to time out, so as we run out of things or as I'm planning the weeks food I add items to the basket and then checkout once I'm ready.  Rather than booking a home delivery slot I choose the "click and collect" option which means that I can drop in on my way home and it's all ready to go.  The confirmation page on the app also gives you the option to add it to your calendar - very handy.
 
+## Bumping up my phone security
+
+I've just installed [Cerberus](http://www.cerberusapp.com) which gives you remote control over your phone.  If it's stolen you can lock it, take pictures with the camera, record audio, get it's geolocation and all sorts of cool stuff.  If it gets desparate you can even remove wipe it.
