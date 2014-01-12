@@ -2,6 +2,7 @@
 kind: article
 created_at: "2014-01-12"
 title: Better living though software
+---
 
 I'm not a man to make new years resolutions, but I do try and spend a bit of time every January decluttering my life.  
 This year I realised that I'd ended up using various online services to make this happen.
@@ -9,7 +10,8 @@ This year I realised that I'd ended up using various online services to make thi
 ## Sorting out my spending
 
 I've signed up to [MoneyDashboard.com](http://www.moneydashboard.com) and hooked it up to my bank accounts.  It imports your bank statements and you mark up each transaction into a cetegory (household bills, going out, birthday present etc) and over time you get a picture of how, where and when you spend.  Unlike [You Need A Budget](http://www.youneedabudget.com) (which several friends swear by) MoneyDashboard is an online service rather than desktop based and is retrospective in nature - it tells you how you've spent your money, not whther or not you're going to over spend.
-![Moneydashboard.com](_assets/uploads/moneydashboard.png "Moneydashboard.com")
+
+<a href="/_assets/uploads/moneydashboard.png" data-lightbox="image-1" title="moneydashboard.com"><img src="/_assets/uploads/moneydashboard.png" width="150"></a>
 
 ## Keeping track of things I need to do
 
@@ -19,7 +21,7 @@ I've taken to using [Trello](https://trello.com/) to run a couple of Kanban boar
 
 By knowing everything I need to do it in Trello I've stop worrying about forgetting things, very comforting.
 
-![Trello](_assets/uploads/trello.png "trello.com")
+<a href="/_assets/uploads/trello.png" data-lightbox="image-2" title="trello.com"><img src="/_assets/uploads/trello.png" width="150"></a>
 
 ## Looking less scruffy
 
@@ -33,7 +35,7 @@ So far I've ordered a couple of items and they were delivered quickly and beutif
 
 Note: the Thread link above means you and I get a fiver off if you join.
 
-![Thread](_assets/uploads/thread.png "Thread.com")
+<a href="/_assets/uploads/thread.png" data-lightbox="image-3" title="thread.com"><img src="/_assets/uploads/thread.png"  width="150"></a>
 
 ## Shopping for food more efficiantly.
 
