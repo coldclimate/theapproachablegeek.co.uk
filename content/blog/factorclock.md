@@ -1,7 +1,7 @@
 ---
 kind: article
 created_at: "2014-03-17"
-title: XKCD Inspired Facotor Clock
+title: XKCD Inspired Factor Clock
 ---
 
 <h2 id="time">TIME</h2>
