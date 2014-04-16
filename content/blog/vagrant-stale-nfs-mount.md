@@ -1,7 +1,7 @@
 ---
 kind: article
 created_at: "2014-04-16"
-title: Vagrant: Stale NFS file handle
+title: Vagrant -  Stale NFS file handle
 ---
 
 I had an odd error on my Vagrant box the other day which turned out to be dead easy to solve in the end.  Whilst running my standard setup I received
