@@ -3,9 +3,7 @@ kind: article
 created_at: "2014-04-27"
 title: Always have a VPN handy
 ---
-I've been doing a bit more onsite work on late and was planning to write up some of the things that I've found handy, however that shall have to wait for another day.  There is one thing that's saved my bacon numerous times however...
-
-## Always have a VPN connection handy
+I've been doing a bit more onsite work on late and was planning to write up some of the things that I've found handy, however that shall have to wait for another day.  There is one thing that's saved my bacon numerous times however... having a VPN connection account handy.
 
 I use [privateinternetaccess.com](https://privateinternetaccess.com/) but I also hear good things about [vpn.sh](https://vpn.sh/).  At Less than £40 a year if it saves my bacon even once it's paid for itself.  Being able to punch your way across and out of somebodies network, wrapping all you traffic in a layer of encryption is invaluable.
 
