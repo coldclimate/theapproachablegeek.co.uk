@@ -33,7 +33,6 @@ A couple of notes on things I stumbled upon along the way.  I started by pinchin
 		<div id="smoother" title="Smoothing"></div>
 		<div id="legend"></div>
 	</div>
-	<div id="slider"></div>
 </div>
 
 <script>
