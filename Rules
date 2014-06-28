@@ -13,11 +13,13 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
+# this is the root of the blog directory
 compile 'blog' do
-    filter :erb
-    layout 'default'
-end  
+  filter :erb
+  layout 'default'
+end
 
+#these are the actual blog posts
 compile '/blog/*/' do
   filter :kramdown
   layout 'post'
@@ -29,11 +31,7 @@ compile '_assets/*' do
   nil
 end
 
-route '/htaccess/' do
-  '/.htaccess'
-end
-
- compile '*' do
+compile '*' do
   if item.binary?
     # don’t filter binary items
   else
@@ -42,9 +40,15 @@ end
   end
 end
 
-   route '_assets/*' do
-     item.identifier.chop + '.' + item[:extension]
-   end
+route '_assets/css/*' do
+  fp = fingerprint(item[:filename])
+  item.identifier.chop + fp + '.css'
+end
+
+# this stops the creations of file/index.html where file.css
+route '_assets/*' do
+  item.identifier.chop + '.' + item[:extension]
+end
 
 route '*' do
   if item.binary?
@@ -57,5 +61,5 @@ route '*' do
 end
 
 
-
+# default everything else to being erb
 layout '*', :erb
