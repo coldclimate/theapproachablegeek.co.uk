@@ -13,19 +13,6 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
-compile '/stylesheet/' do
-  # don’t filter or layout
-end
-
-compile '/stylesheet/' do
-  # don’t filter or layout
-end
-
-# Sitemap and htaccess do get filtered with erb, but get no layout.
-compile %r{^/(sitemap|htaccess)/$} do
-  filter :erb
-end
-
 compile 'blog' do
     filter :erb
     layout 'default'
@@ -39,10 +26,6 @@ compile '/blog/*/' do
 end
 
 compile '_assets/*' do
-  nil
-end
-
-compile 'profile/*' do
   nil
 end
 
