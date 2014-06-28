@@ -13,6 +13,16 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
+#route '_assets/css/*' do
+#  fp = fingerprint(item[:filename])
+#  item.identifier.chop + fp + '.css'
+#end
+
+# this stops the creations of file/index.html where file.css
+route '_assets/*' do
+  item.identifier.chop + '.' + item[:extension]
+end
+
 # this is the root of the blog directory
 compile 'blog' do
   filter :erb
@@ -40,15 +50,7 @@ compile '*' do
   end
 end
 
-route '_assets/css/*' do
-  fp = fingerprint(item[:filename])
-  item.identifier.chop + fp + '.css'
-end
 
-# this stops the creations of file/index.html where file.css
-route '_assets/*' do
-  item.identifier.chop + '.' + item[:extension]
-end
 
 route '*' do
   if item.binary?

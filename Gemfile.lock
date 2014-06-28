@@ -9,8 +9,6 @@ GEM
     kramdown (1.4.0)
     nanoc (3.7.1)
       cri (~> 2.3)
-    nanoc-cachebuster (0.3.1)
-      nanoc (>= 3.3.0)
     rack (1.5.2)
 
 PLATFORMS
@@ -20,4 +18,3 @@ DEPENDENCIES
   adsf
   kramdown
   nanoc
-  nanoc-cachebuster

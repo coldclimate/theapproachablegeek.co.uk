@@ -3,8 +3,6 @@
 
 include Nanoc3::Helpers::LinkTo
 include Nanoc3::Helpers::Blogging
-include Nanoc3::Helpers::XMLSitemap
-include Nanoc::Helpers::CacheBusting
 
 module PostHelper
   def get_pretty_date(post)
