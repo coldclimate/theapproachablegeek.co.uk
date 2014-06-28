@@ -1,6 +1,8 @@
 # All files in the 'lib' directory will be loaded
 # before nanoc starts compiling.
+require 'nanoc/cachebuster'
 
+include Nanoc::Helpers::CacheBusting
 include Nanoc3::Helpers::LinkTo
 include Nanoc3::Helpers::Blogging
 
@@ -10,4 +12,3 @@ module PostHelper
   end
 end
 include PostHelper
-

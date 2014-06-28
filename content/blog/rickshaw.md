@@ -7,8 +7,8 @@ title: A quick and dirty experiment with Rickshaw
 <link type="text/css" rel="stylesheet" href="/_assets/rickshaw/detail.css">
 <link type="text/css" rel="stylesheet" href="/_assets/rickshaw/legend.css">
 <link type="text/css" rel="stylesheet" href="/_assets/rickshaw/lines.css">
-<script src="/_assets/rickshaw/d3.min.js"></script>
-<script src="/_assets/rickshaw/rickshaw.min.js"></script>
+<script src="/_assets/rickshaw/d3.js"></script>
+<script src="/_assets/rickshaw/rickshaw.js"></script>
 
 I had some time to kill on the train to Devs Love Bacon, and limited internet access, so I was looking for an offline project to play with and learn something new in a couple of hours.  Step in [Rickshaw](http://code.shutterstock.com/rickshaw/) a graphing library built on [D3](http://d3js.org/) it's a quick way to make beutiful interactive graphs.
 
