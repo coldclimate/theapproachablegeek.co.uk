@@ -6,6 +6,6 @@ output/
 
 # Temporary file directory
 tmp/
-
+.vagrant
 crash.log
 deploy.sh
