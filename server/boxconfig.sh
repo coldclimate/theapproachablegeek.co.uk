@@ -9,7 +9,7 @@ sudo apt-get -y install git nginx ruby1.9.1 ruby1.9.1-dev   rubygems1.9.1 irb1.9
 sudo update-alternatives --install /usr/bin/ruby ruby /usr/bin/ruby1.9.1 400 --slave   /usr/share/man/man1/ruby.1.gz ruby.1.gz /usr/share/man/man1/ruby1.9.1.1.gz --slave   /usr/bin/ri ri /usr/bin/ri1.9.1 --slave   /usr/bin/irb irb /usr/bin/irb1.9.1 --slave   /usr/bin/rdoc rdoc /usr/bin/rdoc1.9.1
 sudo update-alternatives --config ruby
 sudo update-alternatives --config gem
-
-sudo gem install nanoc adsf kramdown
+sudo gem install bundler
+bundle install /vagrant/server/Gemfile
 sudo cp server/default.conf /etc/nginx/conf.d
 sudo service nginx restart
