@@ -2,9 +2,10 @@
 
 # Default location for output, needs to match output_dir's value found in config.yaml
 output/
+.DS_Store
 
 # Temporary file directory
 tmp/
-
+.vagrant
 crash.log
 deploy.sh

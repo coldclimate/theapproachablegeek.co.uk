@@ -3,17 +3,79 @@
   <head>
     <meta charset="utf-8">
     <title><%= @item[:title] %> The Approachable Geek</title>
-    <link href="/_assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/_assets/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="/_assets/css/lightbox.css" rel="stylesheet">
+    <link href="/_assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/_assets/css/bootswatch.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/_assets/js/html5shiv.js"></script>
+      <script src="/_assets/js/respond.min.js"></script>
+    <![endif]-->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- you don't need to keep this, but it's cool for stats! -->
-    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
+    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
+    
   </head>
-  <body>
-<script type="text/javascript">
+   <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="../" class="navbar-brand">The Approachable Geek</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="/hire">Hire Me</a>
+            </li>
+            <li>
+              <a href="/blog">Blog</a>
+            </li>
+          </ul>
 
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://www.twitter.com/coldclimate">@coldclimate</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="page-header" id="banner">
+        <div class="row">
+          <div class="col-lg-12">
+            <%= yield %>
+          </div>
+
+        </div>
+      </div>
+
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+
+            <p>Built with <a href="http://nanoc.stoneship.org/">Nanoc</a>, <a href="http://www.sublimetext.com/2">Sublime Text2</a>, coffee and <a href="http://bootswatch.com">bootswatch:Simplex</a> which is in turn powered by <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+
+          </div>
+        </div>
+
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/_assets/js/bootstrap.min.js"></script>
+    <script src="/_assets/js/bootswatch.js"></script>
+
+   <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-4150109-19']);
   _gaq.push(['_setDomainName', 'theapproachablegeek.co.uk']);
@@ -24,49 +86,10 @@
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  })(); 
 
-</script>
-    <div class="navbar navbar-inverse">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="/">The Approachable Geek</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li>
-                <a href="/hire">Hire me</a>
-              </li>
-              <li>
-                <a href="/blog">Blog</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  <div id="main" class="row">
-    <div class="span1"></div>
-    <div class="span10">
-    <%= yield %>
-  </div>
-  <div class="span1"></div>
-  </div>  
-
-  
-    <footer id="footer" class="row">
-      <div class="span1"></div>
-      <div class="span10">
-    <p>Built with <a href="http://nanoc.stoneship.org/">Nanoc</a>, <a href="http://www.sublimetext.com/2">Sublime Text2</a> and coffee</p>
-  </div>
-    <div class="span1"></div>
-    </footer>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="/_assets/js/lightbox.min.js"></script>
-  <!-- CANDDi http://canddi.com/privacy -->   <script type="text/javascript">   (function(){var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.type="text/javascript";a.async=true;a.src=("https:"===document.location.protocol?"https://cdns":"http://cdn")+".canddi.com/p/aebdb5ef235ad2a91a84b8cb81bd2295.js";b.parentNode.insertBefore(a,b);}());  </script>   <noscript style='position: absolute; left: -10px;'><img src='https://i.canddi.com/i.gif?A=aebdb5ef235ad2a91a84b8cb81bd2295'/></noscript>  <!-- /END CANDDi --> 
+  <!-- CANDDi http://canddi.com/privacy -->   <script type="text/javascript">   (function(){var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.type="text/javascript";a.async=true;a.src=("https:"===document.location.protocol?"https://cdns":"http://cdn")+".canddi.com/p/aebdb5ef235ad2a91a84b8cb81bd2295.js";b.parentNode.insertBefore(a,b);}());  </script>
+  <noscript style='position: absolute; left: -10px;'><img src='https://i.canddi.com/i.gif?A=aebdb5ef235ad2a91a84b8cb81bd2295'/></noscript>  <!-- /END CANDDi --> 
   </body>
+
 </html>

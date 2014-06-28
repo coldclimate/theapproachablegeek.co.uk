@@ -1,6 +1,8 @@
 <h1><%= link_to(@item[:title], @item.path) %></h1>
  <p class="created_at"><%= get_pretty_date(item) %></p>
  <%= yield %>
+
+ 
 <div id="disqus_thread"></div>
     <script type="text/javascript">
         var disqus_shortname = 'theapproachablegeek'; // required: replace example with your forum shortname
@@ -13,4 +15,3 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-  </div>
