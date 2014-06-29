@@ -13,47 +13,46 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
-#route '_assets/css/*' do
-#  fp = fingerprint(item[:filename])
-#  item.identifier.chop + fp + '.css'
-#end
 
-# this stops the creations of file/index.html where file.css
-route '_assets/*' do
-  item.identifier.chop + '.' + item[:extension]
-end
+# Compilation rules describe how items are processed
+# Routing rule describe where items are written to
+# Each item matches exactly one compilation rule and one routing rule.
 
-# this is the root of the blog directory
-compile 'blog' do
-  filter :erb
-  layout 'default'
-end
 
 #these are the actual blog posts
+# and they need a different attitional layout
 compile '/blog/*/' do
   filter :kramdown
-  layout 'post'
-  snapshot :body
-  layout 'default'
+  layout 'post' 
+  layout 'default' # this will get applied on top of the post styling
+  filter :cache_buster
 end
 
-compile '_assets/*' do
-  nil
-end
 
 compile '*' do
-  if item.binary?
+  if item[:extension] == 'md'
+     filter :kramdown
+     layout 'default'
+     filter :cache_buster
+  elsif item[:extension] == 'css'
+    # don’t filter stylesheets
+  elsif item[:extension] == 'js'
+    # don’t filter stylesheets
+  elsif item.binary?
     # don’t filter binary items
   else
-    filter :kramdown
+    filter :erb
     layout 'default'
+    filter :cache_buster
   end
 end
 
-
-
 route '*' do
-  if item.binary?
+  if item[:extension] == 'css'
+    item.identifier.chop + fingerprint(item[:filename]) + '.' + item[:extension]
+  elsif item[:extension] == 'js'
+    item.identifier.chop + fingerprint(item[:filename]) + '.' + item[:extension]
+  elsif item.binary?
     # Write item with identifier /foo/ to /foo.ext
     item.identifier.chop + '.' + item[:extension]
   else
@@ -62,6 +61,4 @@ route '*' do
   end
 end
 
-
-# default everything else to being erb
 layout '*', :erb
