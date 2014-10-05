@@ -17,7 +17,13 @@
 
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
-    
+    <script type="text/javascript">
+    var bNoAnalytics = false;
+    if (document.referrer && /semalt\.com/i.test(document.referrer)) {
+        bNoAnalytics = true;
+        document.body.innerHTML = "Hello Semalt - please stop tracking me";
+    }
+ </script>
   </head>
    <body>
     <div class="navbar navbar-default navbar-fixed-top">
@@ -77,19 +83,21 @@
     <script src="/_assets/js/bootswatch.js"></script>
 
    <script type="text/javascript">
+   
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-4150109-19']);
   _gaq.push(['_setDomainName', 'theapproachablegeek.co.uk']);
   _gaq.push(['_setAllowLinker', true]);
   _gaq.push(['_trackPageview']);
-
+  if (!bNoAnalytics) {
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })(); 
+ }
 
-  <!-- CANDDi http://canddi.com/privacy -->   <script type="text/javascript">   (function(){var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.type="text/javascript";a.async=true;a.src=("https:"===document.location.protocol?"https://cdns":"http://cdn")+".canddi.com/p/aebdb5ef235ad2a91a84b8cb81bd2295.js";b.parentNode.insertBefore(a,b);}());  </script>
+
   <noscript style='position: absolute; left: -10px;'><img src='https://i.canddi.com/i.gif?A=aebdb5ef235ad2a91a84b8cb81bd2295'/></noscript>  <!-- /END CANDDi --> 
   </body>
 
