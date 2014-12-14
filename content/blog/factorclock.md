@@ -72,11 +72,33 @@ function updateDisplay(){
 	document.getElementById("factors").innerHTML = strFactor;
 }
 
-setInterval(updateDisplay,1000);
+function dotime(){
+	
+	var d = new Date();
+	var hours = d.getHours();
+	var mins = d.getMinutes();
+	var secs = d.getSeconds();
+	
+	if (hours < 10){hours = "0" + hours};
+	if (mins < 10){mins = "0" + mins};
+	if (secs < 10){secs = "0" + secs};
+	
+	hours.toString();
+	mins.toString();
+	secs.toString();
+	
+	var hex = "#" + hours + mins + secs;
+	document.getElementById("time").style.background = hex;
+}
+	
+	setTimeout(function(){ dotime();}, 1000);
+	setInterval(updateDisplay,1000);
 
 updateDisplay();
 
 </script>
+
+  Edited 20-12-14: I ran across this brilliant [What color is it](http://whatcolourisit.scn9a.org/) and couldn't resist bolting on the rather neat idea of colours based on the time.
 
 Yesterday I found my XKCD book that I was given for Christmas and whilst leafing through it ran across this gem [about factoring the time](https://xkcd.com/247/).
 
