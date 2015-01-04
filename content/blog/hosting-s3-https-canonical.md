@@ -50,17 +50,17 @@ There are plenty of getting started guides to help here, I'll not duplicate.  Th
 
 ## Building with CodeShip
 
-I came across CodeShip.io because they sponsored a local meetup with stickers and t-shirts.  It's an online Continious Integration service with 100 free builds a month which is plenty for all my blog posts.
+I came across CodeShip.io because they sponsored a local meetup with stickers and t-shirts.  It's an online Continuous Integration service with 100 free builds a month which is plenty for all my blog posts.
 
 I signed up with an email address, then authenticated with both GitHub and BitBucket.  The UI has changed recently, but it is easy enough to create a new project and connect it to the Git repo.  Now whenever your repo changes CodeShip will fire up, pull the changes, build, test and deploy.
 
 First the build (or "setup" as CodeShip call it).  Because I list all the gems I need in my Gemfile CodeShip can setup the same environment as my Vagrant box, so my setup steps are as follows
 
-    bundle install
+    bundle install # this reads the Gemfile
     nanoc compile #for nanoc
     jekyll build # for jekyll
 
-These steps will do exactly what they did on my local machine and produce a set of rendered HTML files in an output directoty.
+These steps will do exactly what they did on my local machine and produce a set of rendered HTML files in an output directory.
 
 At this point CodeShip is really set up to run a set of tests, however as yet I've not got any.  Eventually I'd like to bolt on HTML syntax checking, JS unit tests etc.  For the moment.... moving on.
 
@@ -90,11 +90,11 @@ Click on your desired canonical bucket and click Properties.  Tick the option un
 
 Take note of it's bucket name (XXXXXXXXX.s3-website-eu-west-1.amazonaws.com)
 
-*** image here
+![My canonical bucket](/_assets/images/post_content/canonical.png "The canonical bucket")
 
 Now for each other bucket hit Properties and choose "Redirect all requests to another host name", then set this to your canonical domain name ("www.theapproachablegeek.co.uk")
 
-*** image here
+![One of my non-canonical buckets](/_assets/images/post_content/non-canonical.png "One of my non-canonical buckets")
 
 Now whatever is in your canonical bucket will get served up and eventually all the other buckets will route through to it.
 
@@ -104,7 +104,7 @@ You need to create a User for Codeship to ship as.  Don't be lazy and use your r
 
 From the top menu with your user name on it, choose Security credentials.  Then head to Users > Create Users.  Fill in one item on the list and hit "Create".  Once the user is created you get one chance (and one only) to download their credentials.  Make a note of the Key and Secret, you'll need them.
 
-Now click on your fresh shiny new user and under User Policys head for Attach Policy.  This is a JSON document that governs what the user can do.  Choose Custom Policy and paste in this policy, adjusting the bucket name as needed.  Note the two entries.  This policy gives access to do everything with the bucket, you might want to restrict it down to a subset of actions.  
+Now click on your fresh shiny new user and under User Policies head for Attach Policy.  This is a JSON document that governs what the user can do.  Choose Custom Policy and paste in this policy, adjusting the bucket name as needed.  Note the two entries.  This policy gives access to do everything with the bucket, you might want to restrict it down to a subset of actions.  
 
     {
       "Version": "2012-10-17",
@@ -120,7 +120,9 @@ Now click on your fresh shiny new user and under User Policys head for Attach Po
 
 ## The deploy (back in CodeShip)
 
-If your build passes, CodeShip can automatically deploy for you.  There's an easy integration for S3, just fill in the details (Key, Secret, bucket name, region).  Finally set "ACL: public-read" and you should be good to go.  To test it you can either push a new commit and force a fresh build or clic the refresh icon next to the last build.  Hopefully you could see a build of your site in your canonical bucket.  Check that it's accessible by using the raw bucket address http://XXXXXXXXX.s3-website-eu-west-1.amazonaws.com
+If your build passes, CodeShip can automatically deploy for you.  There's an easy integration for S3, just fill in the details (Key, Secret, bucket name, region).  Finally set "ACL: public-read" and you should be good to go.  To test it you can either push a new commit and force a fresh build or click the refresh icon next to the last build.  Hopefully you could see a build of your site in your canonical bucket.  Check that it's accessible by using the raw bucket address http://XXXXXXXXX.s3-website-eu-west-1.amazonaws.com
+
+![Rebuilding the project](/_assets/images/post_content/build_refresh.png "Rebuilding the project")
 
 ## So where are we so far...
 
@@ -141,6 +143,8 @@ I stepped though adding my domain names and CloudFlare was painess enough and th
 
 Head to your DNS settings for each domain set each combination of www and non-www to use a CNAME to point to your appropriate AWS S3 Bucket.  When you set the root domain (where you set the subdomain to @) CloudFlare will warn you about CNAME Flattening.
 
+![CNAME'ing my domains](/_assets/images/post_content/dns-cname.png "CNAME'ing my domains")
+
 Once you clear your cache and potentially wait 24 hours for DNS propagation, you can test that everything is working over HTTP.  Either type each variant URL into the browser and check that you get redirected to the right place.  If you're a command line fan you can also test that way, which can help with browser cache issues too.
 
     curl -I http://theapproachablegeek.com  ##  returns a 301 to Location: http://www.theapproachablegeek.co.uk/
@@ -154,7 +158,15 @@ Game on, we're now serving the site over four domains correctly.
 
 CloudFlare have an amazing (free!) service to allow you to serve your sites correctly over HTTPS.  It'll actually be running now if you check your site over https://
 
-However, I firmly believe that the more of the web that  is running over HTTPS the better the world will be, so I now serve even my noodle dish recipes over HTTPS.  We do this in CloudFlare with 
+However, I firmly believe that the more of the web that  is running over HTTPS the better the world will be, so I now serve even my noodle dish recipes over HTTPS.  We do this in CloudFlare using their PageRules.  Head under there for each domain and add a rule that redirects all HTTP traffic to HTTPS
+
+![Forcing HTTPS](/_assets/images/post_content/http.png "Forcing HTTPS")
+![How it all hangs together](/_assets/images/post_content/domain_flow.png "How it all hangs together")
+## All done!
+
+There's a few bits and pieces I could clean up here (specifically I think this could all be done with one S3 bucket), but maybe that's for another day.  I'll keep a tab on costs and update here after a few months.
+
+
 
 
 
