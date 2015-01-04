@@ -4,15 +4,15 @@ created_at: "2015-01-04"
 title: Moving my hosting to provide HTTPs and canonical URLs hosted in Amazon S3 built with Codeship
 ---
 
-For years I ran a few chunky sized virtual machines from Bytemark and hosted everything on them, and great they were too.  Most of the sites I ran were Wordpress backed and thus a LAMP stack was a sensible choice.  Over time I've moved most things to stack file sites or retired those Wordpress installs.  Eventually the cost of the chunky boxes couldn't be justified so I moved to multiple smaller and cheaper Digital Ocean boxes (and they're great for the money too).
+For years I ran a few chunky sized virtual machines from [Bytemark](https://www.bytemark.co.uk/) and hosted everything on them, and great they were too.  Most of the sites I ran were Wordpress backed and thus a LAMP stack was a sensible choice.  Over time I've moved most things to stack file sites or retired those Wordpress installs.  Eventually the cost of the chunky boxes couldn't be justified so I moved to multiple smaller and cheaper [Digital Ocean](https://www.digitalocean.com/) boxes (and they're great for the money too).
 
 However as most of my sites no longer have a database backend it made sense to eventually move them to Amazon's S3 bucket based hosting.  It's insanely cheap (sub £10 a year I estimate for the couple of blogs I run).  Whilst undertaking this move I figured I'd fix a few things along the way and start to practice what I preach a bit more.
 
 ## The end goal
 
-* Sites are built with one of the static site generators I'm used to.  In this case I've got both Nanoc and Jekyll based sites
+* Sites are built with one of the static site generators I'm used to.  In this case I've got both [Nanoc](http://nanoc.ws/) and [Jekyll](http://jekyllrb.com/) based sites
 * I can build locally for testing
-* Code for the sites hosted either in Github (public repos because I have a free account) or BitBucket (private repos are free).  I much prefer Github, but private free repos from BitBucket is too good to ignore.
+* Code for the sites hosted either in [Github](https://github.com/) (public repos because I have a free account) or [BitBucket](https://bitbucket.org/) (private repos are free).  I much prefer Github, but private free repos from BitBucket is too good to ignore.
 * Built and deployed when I push to the repo automatically.  No more manual deployments.
 * One canonical address for each site.  With (or without) www. and .co.uk/.com should all resolve to one address
 * Serve over HTTPS, ideally only over HTTPS
@@ -21,7 +21,7 @@ However as most of my sites no longer have a database backend it made sense to e
 
 This turned out to be the easy bit, because I've been doing it for a year or so, however some tidying up was needed.  There are good guides to getting started with Nanoc and Jekyll but I'd ended up in Ruby Version Hell on my old laptop more than once.  Luckily the cat decided to destroy that machine with a large glass of red wine, so I tried to get into some better habits on my new machine.
 
-Each site has it's own Git repo.  In there I built setup a Vagrant box which is a basic Ubuntu box with the right version of Ruby installed and Nanoc/Jekyll + all the various gems needed.  All my required gems are listed in a Gemfile (see https://github.com/coldclimate/theapproachablegeek.co.uk/blob/master/Gemfile) Thus to build on my box I run
+Each site has it's own Git repo.  In there I built setup a [Vagrant](https://www.vagrantup.com/) box which is a basic Ubuntu box with the right version of Ruby installed and Nanoc/Jekyll + all the various gems needed.  All my required gems are listed in a Gemfile (see [https://github.com/coldclimate/theapproachablegeek.co.uk/blob/master/Gemfile](https://github.com/coldclimate/theapproachablegeek.co.uk/blob/master/Gemfile)) Thus to build on my box I run
 
     vagrant up #(it's normally up anyway)
     vagrant ssh
@@ -36,7 +36,7 @@ The above commands result in a compiled site (hopefully) in either ./_site or ./
 
 Fire it up, head to http://localhost:8000 and there is my site to check.
 
-All my posts are written in Markdown which is means I'm writing in a familiar environment, in my case Subime Text
+All my posts are written in Markdown which is means I'm writing in a familiar environment, in my case [Sublime Text](http://www.sublimetext.com/)
 
 ## Github and BitBucket hosting
 
@@ -50,7 +50,7 @@ There are plenty of getting started guides to help here, I'll not duplicate.  Th
 
 ## Building with CodeShip
 
-I came across CodeShip.io because they sponsored a local meetup with stickers and t-shirts.  It's an online Continuous Integration service with 100 free builds a month which is plenty for all my blog posts.
+I came across [CodeShip](https://codeship.com) because they sponsored a local meetup with stickers and t-shirts.  It's an online Continuous Integration service with 100 free builds a month which is plenty for all my blog posts.
 
 I signed up with an email address, then authenticated with both GitHub and BitBucket.  The UI has changed recently, but it is easy enough to create a new project and connect it to the Git repo.  Now whenever your repo changes CodeShip will fire up, pull the changes, build, test and deploy.
 
@@ -75,7 +75,7 @@ I've used Amazon Web Services on and off since it launched and S3 was a very ear
 
 ### The buckets
 
-After signing up for AWS and choosing a region to host your stuff in (I went with eu-west-1 which is hosted in Ireland).
+After signing up for [AWS](http://aws.amazon.com/console) and choosing a region to host your stuff in (I went with eu-west-1 which is hosted in Ireland).
 
 First up create a bucket for each and every variant of the URL you'll need.  Most of these will be empty but we need them for routing.  Give them the same name as the domain you'll be routing to it.  In the end for this site I had to create...
 
@@ -135,13 +135,13 @@ If your build passes, CodeShip can automatically deploy for you.  There's an eas
 
 ## Using CloudFlare to provide DNS routing
 
-I buy all my domain names through I Want My Name and up until now I've not had a need for another DNS provider however here is where we hit one of the pains in the neck of S3 hosting.  Normally you'd have your DNS record set up so that everything ends up at your webserver by IP address and then sort it out with Apache/Nginx etc.  Sadly to point to an S3 bucket you need to use a CNAME and up until now there's not been a good way to set a CNAME on the route domain (the non-www's address).  Some argue there's still not a good way, but CloudFlare provide a way, which is good enough for me.  If you're using Amazons R53 you can also do this with Amazon's own DNS hack.
+I buy all my domain names through [I Want My Name](https://iwantmyname.com/) and up until now I've not had a need for another DNS provider however here is where we hit one of the pains in the neck of S3 hosting.  Normally you'd have your DNS record set up so that everything ends up at your webserver by IP address and then sort it out with Apache/Nginx etc.  Sadly to point to an S3 bucket you need to use a CNAME and up until now there's not been a good way to set a CNAME on the route domain (the non-www's address).  Some argue there's still not a good way, but [CloudFlare](https://www.cloudflare.com) provide a way, which is good enough for me.  If you're using Amazons R53 you can also do this with Amazon's own DNS hack.
 
 When you sign up for CloudFlare you don't need to pick a free policy or a paid one, you can do it per domain name, which is a nice feature.  We can use the free tier for all of this luckily.
 
-I stepped though adding my domain names and CloudFlare was painess enough and they did a great job of picking up all my existing DNS entries.  I then set my nameservers at the I Want My Name end to point to CloudFlare and then we're all set to sort out the routing.
+I stepped though adding my domain names and CloudFlare was painless enough and they did a great job of picking up all my existing DNS entries.  I then set my nameservers at the I Want My Name end to point to CloudFlare and then we're all set to sort out the routing.
 
-Head to your DNS settings for each domain set each combination of www and non-www to use a CNAME to point to your appropriate AWS S3 Bucket.  When you set the root domain (where you set the subdomain to @) CloudFlare will warn you about CNAME Flattening.
+Head to your DNS settings for each domain set each combination of www and non-www to use a CNAME to point to your appropriate AWS S3 Bucket.  When you set the root domain (where you set the subdomain to @) CloudFlare will warn you about [CNAME Flattening](https://support.cloudflare.com/hc/en-us/articles/200169056-CNAME-Flattening-RFC-compliant-support-for-CNAME-at-the-root).
 
 ![CNAME'ing my domains](/_assets/images/post_content/dns-cname.png "CNAME'ing my domains")
 
