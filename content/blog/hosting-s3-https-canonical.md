@@ -1,7 +1,7 @@
 ---
 kind: article
 created_at: "2015-01-04"
-title: Moving my hosting to provide HTTPs and canonical URLs hosted in Amazon S3 built with Codeship
+title: Moving my hosting to provide HTTPS and canonical URLs hosted in Amazon S3 built with Codeship
 ---
 
 For years I ran a few chunky sized virtual machines from [Bytemark](https://www.bytemark.co.uk/) and hosted everything on them, and great they were too.  Most of the sites I ran were Wordpress backed and thus a LAMP stack was a sensible choice.  Over time I've moved most things to stack file sites or retired those Wordpress installs.  Eventually the cost of the chunky boxes couldn't be justified so I moved to multiple smaller and cheaper [Digital Ocean](https://www.digitalocean.com/) boxes (and they're great for the money too).
