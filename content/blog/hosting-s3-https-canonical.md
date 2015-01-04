@@ -161,8 +161,15 @@ CloudFlare have an amazing (free!) service to allow you to serve your sites corr
 However, I firmly believe that the more of the web that  is running over HTTPS the better the world will be, so I now serve even my noodle dish recipes over HTTPS.  We do this in CloudFlare using their PageRules.  Head under there for each domain and add a rule that redirects all HTTP traffic to HTTPS
 
 ![Forcing HTTPS](/_assets/images/post_content/http.png "Forcing HTTPS")
+
+### DNS/HTTP(S) Recap
+
+The flow is something like this
+
 ![How it all hangs together](/_assets/images/post_content/domain_flow.png "How it all hangs together")
+
 ## All done!
+
 
 There's a few bits and pieces I could clean up here (specifically I think this could all be done with one S3 bucket), but maybe that's for another day.  I'll keep a tab on costs and update here after a few months.
 
