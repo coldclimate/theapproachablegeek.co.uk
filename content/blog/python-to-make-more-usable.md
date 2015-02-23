@@ -110,10 +110,10 @@ I'm lucky enough to have a few friends who made it onto [The Maserati 100](http:
 
 </ul>
 
-  from bs4 import BeautifulSoup
-  import requests
-  r  = requests.get("http://www.themaserati100.co.uk/")
-  data = r.text
-  soup = BeautifulSoup(data)
-  for portfolio in soup.find_all('div', class_="portfolio-item"):
-    print ("<li><a href=\"%s\">%s</a></li>" % (portfolio.a.get("href"), portfolio.img.get("alt")))
+    from bs4 import BeautifulSoup
+    import requests
+    r  = requests.get("http://www.themaserati100.co.uk/")
+    data = r.text
+    soup = BeautifulSoup(data)
+    for portfolio in soup.find_all('div', class_="portfolio-item"):
+      print ("<li><a href=\"%s\">%s</a></li>" % (portfolio.a.get("href"), portfolio.img.get("alt")))
