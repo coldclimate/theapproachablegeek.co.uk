@@ -53,7 +53,7 @@ The volume, nature and shape of your traffic might well change over time.  Your 
 
 
 ## OMG I've been Slashdotted/BuzzFed/I'm on the front page of the frickin Guardian!
-Yes, these things happen.  Somebody posts something about you and suddenly you're getting a hundred or thousand or hundred thousand times your normal traffic.  The bucket of water, which was flowing with vigue because you're doing ok is suddenly Niagra Falls plunging into your basin.  Your site will get slower, viewers will get the dreaded timeout effect and OMG WE'RE DOWN!
+Yes, these things happen.  Somebody posts something about you and suddenly you're getting a hundred or thousand or hundred thousand times your normal traffic.  The bucket of water, which was flowing with vigour because you're doing ok is suddenly Niagra Falls plunging into your basin.  Your site will get slower, viewers will get the dreaded timeout effect and OMG WE'RE DOWN!
 
 These sorts of things are a nightmare to handle and sensible mitigations are only just starting to appear on the market (hello Cloudflare) but they're also rarities (unless you're BuzzFeed and then they are your business model).  Hopefully your site will degrade gracefully if at all, but at that point my drains analogy fails completely.  A story for another day I imagine.
 
