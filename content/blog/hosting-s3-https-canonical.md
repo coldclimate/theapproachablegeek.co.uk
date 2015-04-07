@@ -4,7 +4,7 @@ created_at: "2015-01-04"
 title: Moving my hosting to provide HTTPS and canonical URLs hosted in Amazon S3 built with Codeship
 ---
 
-For years I ran a few chunky sized virtual machines from [Bytemark](https://www.bytemark.co.uk/) and hosted everything on them, and great they were too.  Most of the sites I ran were Wordpress backed and thus a LAMP stack was a sensible choice.  Over time I've moved most things to static file sites or retired those Wordpress installs.  Eventually the cost of the chunky boxes couldn't be justified so I moved to multiple smaller and cheaper [Digital Ocean](https://www.digitalocean.com/) boxes (and they're great for the money too).
+For years I ran a few chunky sized virtual machines from [Bytemark](https://www.bytemark.co.uk/) and hosted everything on them, and great they were too.  Most of the sites I ran were Wordpress backed and thus a LAMP stack was a sensible choice.  Over time I've moved most things to stack file sites or retired those Wordpress installs.  Eventually the cost of the chunky boxes couldn't be justified so I moved to multiple smaller and cheaper [Digital Ocean](https://www.digitalocean.com/) boxes (and they're great for the money too).
 
 However as most of my sites no longer have a database backend it made sense to eventually move them to Amazon's S3 bucket based hosting.  It's insanely cheap (sub £10 a year I estimate for the couple of blogs I run).  Whilst undertaking this move I figured I'd fix a few things along the way and start to practice what I preach a bit more.
 
@@ -84,7 +84,7 @@ First up create a bucket for each and every variant of the URL you'll need.  Mos
 * www.theapproachablegeek.com
 * theapproachablegeek.com
 
-Not pick your canonical domain.  I went with www.theapproachablegeek.co.uk because I struggled to get theapproachablegeek.co.uk to work (I might have now solved this but I've not tested it).
+Now pick your canonical domain.  I went with www.theapproachablegeek.co.uk because I struggled to get theapproachablegeek.co.uk to work (I might have now solved this but I've not tested it).
 
 Click on your desired canonical bucket and click Properties.  Tick the option under Static Website Hosting for "Enable website hosting" and set your index page (probably index.html).
 
