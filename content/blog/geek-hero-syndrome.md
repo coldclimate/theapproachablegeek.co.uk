@@ -11,7 +11,7 @@ There is a horrible pattern of behavior I see in myself that is counter producti
 
 ## I like all the words in "Geek Hero Syndrome"
 
-I do too, because here's what it looks like
+I do too, but here's what it looks like
 
 1. There's a problem
 2. I (and sometimes only I) can fix it by either some arcane code technique (my love of gluing *nix commands together) or by smashing myself to bits at a keyboard for 28 hours
