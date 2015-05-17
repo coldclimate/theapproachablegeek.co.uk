@@ -7,7 +7,7 @@ title: Geek Hero Syndrome
 
 I've tried to write this post so many times, and never need happy with how it came out.  So fuck it, I'm going to write it in one sitting and post it.  This is by the way no reflection on my current job, I've been brewing this one for well over two years. A post about [Crunch Mode](http://chadfowler.com/blog/2014/01/22/the-crunch-mode-antipattern/) I re-read this morning and some of the tweets that followed made me get this written down finally.
 
-There is a horrible pattern of behavior I see in myself that is counter productive, inefficiant and unhealthy.  I've see it in a lot of other people too over the last 15 years or so.  I'm sure it's go a name, but I call it Geek Hero Syndrome, and i'm doing everything I can to work it out of my system
+There is a horrible pattern of behavior I see in myself that is counter productive, inefficiant and unhealthy.  I've see it in a lot of other people too over the last 15 years or so.  I'm sure it's got a name, but I call it Geek Hero Syndrome, and I'm doing everything I can to work it out of my system
 
 ## I like all the words in "Geek Hero Syndrome"
 
@@ -15,19 +15,20 @@ I do too, but here's what it looks like
 
 1. There's a problem
 2. I (and sometimes only I) can fix it by either some arcane code technique (my love of gluing *nix commands together) or by smashing myself to bits at a keyboard for 28 hours
-3. I AM A KING!  People bestow praise on me and lap it up
-4. Nothing changes
+3. The problem is solved!
+4. I AM A KING!  People bestow praise on me and lap it up
+5. Nothing changes
 
 So I fix a problem and everything is ok, where is the problem in this?  The problem is two fold:
 
 1. The original source of the problem is less liekly to be fixed because we can now work about it using me as a hammer
-2. I get a stonking adrenaline bump and all the associated feelins both during the fix and from the praise afterwards.
+2. I get a stonking adrenaline bump and all the associated feelings both during the fix and from the praise afterwards.
 
 Point 2 just reinforces point 1.  Not intentionally, if you don't go and fix the underlaying problem after you solve the current crisis this is negligent, but in a world where the business is moving on to the next problem and you've not got time to do a really good job of cleaning up it is all too easy to move on and maybe my subconcious isn't helping here.  I think eventually you become a little addicted to the brain chemical bump you get when saving the day.
 
 ## The need for heros occationally
 
-Don't get me wrong here, when shit hits the fan people really should pull out all the stops to get the business up and running again and if people go above and beyond the call of duty in the name of the business they deserve praise.  I can name the times when people I've worked with have done the most amazing things, both in terms of smarts and sheer physical endurance because the business was utterly fucked.  My old manager had to be carried from his chair and taxied back to a hotel after rescuing a permissions and security model for a financial institution in one 26 hour XML marathon (that's a whole untellable story in itself).
+Don't get me wrong here, when shit hits the fan people really should pull out all the stops to get the business up and running again and if people go above and beyond the call of duty in the name of the business they deserve praise.  I can name the times when people I've worked with have done the most amazing things, both in terms of smarts and sheer physical endurance because the business was utterly fucked.  As an example my old manager had to be carried from his chair and taxied back to a hotel after rescuing a permissions and security model for a financial institution in one 26 hour XML marathon (that's a whole untellable story in itself).
 
 My point is that Being The Hero should not be a regular or frequent thing.  High frequency things have a much strong reinforcement effect and that's what we should be avoiding.  Be a hero because the world is on fucking fire, not the backups didn't run.
 
