@@ -1,6 +1,6 @@
 ---
 kind: article
-created_at: "2015-107-01"
+created_at: "2015-07-01"
 title: An acronym for data jobs
 ---
 
