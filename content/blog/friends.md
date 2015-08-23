@@ -3,7 +3,7 @@ kind: article
 created_at: "2015-08-23"
 title: Why are we friends?
 ---
-Leaving and returning to Facebook has really made me think about the people in my life ), community and happiness (this sounds over dramatic, it probably is.  Over the next week or so I've a few different posts to write.  I thought it might be interesting to see who I consider a friend.
+link_to('Leaving', '/on-leaving-facebook/') and link_to('returning', '/returning-to-facebook/') to Facebook has really made me think about the people in my life ), community and happiness (this sounds over dramatic, it probably is.  Over the next week or so I've a few different posts to write.  I thought it might be interesting to see who I consider a friend.
 
 NB: If we know each other in real life and you'd consider ringing me up to see if I fancy a beer, but we're not friends on facebook, don't read too much into that.  Honest.
 
