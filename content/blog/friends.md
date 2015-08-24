@@ -24,7 +24,7 @@ In the last 6 years or so I've spent a lot of time trying to be a good member of
 
 ### party
 
-I'm pretty social and try had at gatherings not to just talk to people I know, and it looks like it works well for meeting people and building friendships.  As much as possible I never say no to a social gathering (though I have a track record of letting work get in the way)
+I'm pretty social and try hard at gatherings not to just talk to people I know, and it looks like it works well for meeting people and building friendships.  As much as possible I never say no to a social gathering (though I have a track record of letting work get in the way)
 
 ### school
 
@@ -40,7 +40,7 @@ Did I meet you through somebody who was already a friend because you're their pa
  
 ### dating
 
-So we didn't end up together but we got on pretty well, we should stay in touch.  There are actually a couple of exs on my FB list but all ended up in the Uni group.  I added this category of friends because s english dating habits evolve towards a much more American view of dating I think people will find that there are a bunch of friends in their lives whom they met whist looking for "the one".
+So we didn't end up together but we got on pretty well, we should stay in touch.  There are actually a couple of exs on my FB list but all ended up in the Uni group.  I added this category of friends because, I believe, as English dating habits evolve towards a much more American view of dating I think people will find that there are a bunch of friends in their lives whom they met whist looking for "the one".
 
 ### family
 
