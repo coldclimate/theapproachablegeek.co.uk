@@ -13,4 +13,4 @@ I've never got round to writing weeknotes despite seeing lots of people I admire
 * Posted [More Mushrooms](https://www.omnomfrickinnom.com/mushrooms/2015/08/27/more-mushrooms/)
 * Helped PS move house
 * Pushed all our DataDog alerts into Ansible.
-
+* Helped EMcQ with her repositories
