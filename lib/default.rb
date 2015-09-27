@@ -12,3 +12,10 @@ module PostHelper
   end
 end
 include PostHelper
+
+module WeekNotes
+def get_weeknumber()
+    Time.now.strftime("%U")
+  end
+end
+include WeekNotes

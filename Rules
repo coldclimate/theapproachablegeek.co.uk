@@ -22,6 +22,7 @@
 #these are the actual blog posts
 # and they need a different attitional layout
 compile '/blog/*/' do
+  filter :erb
   filter :kramdown
   layout 'post' 
   layout 'default' # this will get applied on top of the post styling
