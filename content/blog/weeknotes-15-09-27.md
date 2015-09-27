@@ -4,6 +4,8 @@ created_at: "2015-09-27"
 title: Weeknotes, September 27th 2015
 ---
 
+Week: <%= get_weeknumber %>
+
 * EW came round for tea
 * Wrote all my postcards
 * Coffee with RB
