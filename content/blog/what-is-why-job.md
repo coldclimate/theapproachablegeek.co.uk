@@ -25,13 +25,13 @@ The last thing I am.  I like to think I'm a [T-shaped person](https://en.wikiped
 ## Things I'm definitely not
 
 ### I'm not a designer
-Lets just get that out of the way quickly because it comes up frequently.  I'm no web designer and certainly no designer.  I understand enough HTML, CSS and JavaScript to see how it all fits together but I couldn't turn your idea into a functioning design or even turn a flat design into code.  I'm amazed how often I'm asked however.e
+Lets just get that out of the way quickly because it comes up frequently.  I'm no web designer and certainly no designer.  I understand enough HTML, CSS and JavaScript to see how it all fits together but I couldn't turn your idea into a functioning design or even turn a flat design into code.  I'm amazed how often I'm asked however.
 
 ### I'm not a programmer
-I do program, but I'd never sell my skills as a developer these days.  If I'm really honest I was never a great coder (and I've worked with plenty enough to judge).  I can cut code until the cows come home but my abstractions will be a bit ropey and I imagine it will be a pig to test.  Most of the coding I do these days is the digital equivalent of ducttape - gluing bits of commands together to get data out or perform automation of manual tasks.
+I do program, but I'd never sell my skills as a developer these days.  If I'm really honest I was never a great coder (and I've worked with plenty enough to judge).  I can cut code until the cows come home but my abstractions will be a bit ropey and I imagine it will be a pig to test.  Most of the coding I do these days is the digital equivalent of ducttape - gluing bits of commands together to get data out or perform automation of manual tasks or is encoding eg. turning a diagram into something like JSON for CloudFormation.  Lots of the same skills, but not the same thing.
 
 ### I'm not a support technician
-I've no idea why your printer isn't working.  I can't help you with your network.  I have literally no idea why Word keeps crashing.  My idea of hell is spending all day on the phones waking people through Windows config screens you can't see, and I've a lot of respect for those who can.
+I've no idea why your printer isn't working.  I can't help you with your network.  I have literally no idea why Word keeps crashing.  My idea of hell is spending all day on the phones walking people through Windows config screens you can't see, and I've a lot of respect for those who can.
 
 ## OK, so what do you do?
 
@@ -44,7 +44,7 @@ Some of my job is helping design and implement infrastructure for new products o
 
 ### Part builder
 
-Turning an architecture diagram into actual networks, databases is often now a matter of write code such as Amazon Web Services Cloud Formation or Ansible.  The job here is very much taking the plan and building it out completely, then kicking all the tyres and making sure thinks like communication between ayers is correct.
+Turning an architecture diagram into actual networks, databases instances and the like is often now a matter of write code such as Amazon Web Services [CloudFormation](https://aws.amazon.com/cloudformation/) or [Ansible](http://www.ansible.com/).  The job here is very much taking the plan and building it out completely, then kicking all the tyres and making sure thinks like communication between layers is correct so that all it's waiting for is a deployment of software.
 
 ### Part triage nurse
 
