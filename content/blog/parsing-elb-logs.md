@@ -15,10 +15,10 @@ First step, pulling down the logs.  These things are often huge and if you've go
     aws --profile YOUR-PROFILE s3 cp s3://YOUR-BUCKET/PREFIX/(date +%Y)"/"$(date +%m)"/"$(date +%d)"/" . --recursive --exclude '*' --include *YOUR-FILTER*$(date -u +*%Y%m%dT%H*)
 
 
->> YOUR-PROFILE You should totally use [AWS profiles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html)
->> YOUR-BUCKET s3://example-bucket
->> PREFIX Whatever directory your logs are in
->> YOUR-FILTER Something to match the logs you're interested in
+> YOUR-PROFILE You should totally use [AWS profiles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html)
+> YOUR-BUCKET s3://example-bucket
+> PREFIX Whatever directory your logs are in
+> YOUR-FILTER Something to match the logs you're interested in
 
 This gets you a bunch of .log files.  These are often most easily dealt with as one big log file so cat them together and sort them (because each lines starts with a timestamp this works fine).  I normally bin the original log files at this point.
 
@@ -26,7 +26,7 @@ This gets you a bunch of .log files.  These are often most easily dealt with as 
 
 Now you have a single (possibly chunky) file to work with.  Here's an example of a row
 
-    2015-11-14T08:55:02.614276Z elb-name 217.13.151.25:14990 10.181.281.191:80 0.000041 0.07498 0.000038 201 201 56 305 "POST https://example.com:443/path/to/something/file HTTP/1.1" "-" ECDHE-RSA-AES128
+> 2015-11-14T08:55:02.614276Z elb-name 217.13.151.25:14990 10.181.281.191:80 0.000041 0.07498 0.000038 201 201 56 305 "POST https://example.com:443/path/to/something/file HTTP/1.1" "-" ECDHE-RSA-AES128
 
 There's a tonne of entries there, best is to [read the docs](https://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/access-log-collection.html)
 
@@ -91,7 +91,7 @@ Column 8 is the HTTPS status code that the ELB returned to the client.  Here we 
 
  #### Which IP addresses are hitting me most per minute
 
- This is the sort of thing that [Go Access](http://goaccess.io/) and other such tools are excellent for **include link to andrews tweet here **.  Like the status codes per minute code this is perfect for pulling into other tools.
+ This is the sort of thing that [Go Access](http://goaccess.io/) and other such tools are excellent for (here's the formatting for [getting GoAcess to parse ELB logs](https://twitter.com/goaccess/status/447037494299607040) ).  Like the status codes per minute code this is perfect for pulling into other tools.
 
      cat single.txt | awk '{print substr($1,0,16), substr($3,0,index($3,":")-1)}' | sort | uniq -c | awk '{print $2,$3, $1}'
 
