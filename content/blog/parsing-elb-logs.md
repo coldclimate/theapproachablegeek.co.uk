@@ -65,9 +65,9 @@ To get a unique count of each line (and thus how many of each status code happen
 
 This gives us the output of 
 
-> 7 2015-11-14T08:55 200
-> 2 2015-11-14T08:55 201
-> 1 2015-11-14T08:55 204
+    7 2015-11-14T08:55 200
+    2 2015-11-14T08:55 201
+    1 2015-11-14T08:55 204
 
 Which is useful enough, but having the counts on the end makes life easier in Excel and others because it is likely that the timestamp is the key to the data.
 
@@ -89,7 +89,7 @@ Column 8 is the HTTPS status code that the ELB returned to the client.  Here we 
 
  This is really handy when CloudWatch tells you there's a slew of 5xx errors, and you need to know exactly what they were
 
- ### Which IP addresses are hitting me most per minute
+### Which IP addresses are hitting me most per minute
 
  This is the sort of thing that [Go Access](http://goaccess.io/) and other such tools are excellent for (here's the formatting for [getting GoAcess to parse ELB logs](https://twitter.com/goaccess/status/447037494299607040) ).  Like the status codes per minute code this is perfect for pulling into other tools.
 
@@ -100,11 +100,11 @@ Column 8 is the HTTPS status code that the ELB returned to the client.  Here we 
 
  Breaking down the more complex Awk:
  
- ### print substr($1,0,16)
+### print substr($1,0,16)
  
  Print the first 16 characters of the 1st column
 
- ### substr($3,0,index($3,":")-1)
+### substr($3,0,index($3,":")-1)
 
 This uses a nested command.  First the substring says "from the 3rd column, start at place 0 and print out the number of characters equal to the result of the index function"
 
