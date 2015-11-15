@@ -1,7 +1,7 @@
 ---
 kind: article
 created_at: "2015-11-14"
-title: Parsing AWS Elastic Load Balancer logs
+title: Parsing AWS Elastic Load Balancer log on the command line for fun and profit
 ---
 
 Amazon Web Services Elastic Load Balancers is excellent bits of kits and one of the mot useful things they have is that you can enable logging easily.  Every request that comes through gets a tonne of information logged about it and the log fires are dropped into an S3 bucket every 5 minutes (or more, this is configurable).
