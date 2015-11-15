@@ -15,10 +15,10 @@ First step, pulling down the logs.  These things are often huge and if you've go
     aws --profile YOUR-PROFILE s3 cp s3://YOUR-BUCKET/PREFIX/(date +%Y)"/"$(date +%m)"/"$(date +%d)"/" . --recursive --exclude '*' --include *YOUR-FILTER*$(date -u +*%Y%m%dT%H*)
 
 
-    YOUR-PROFILE You should totally use [AWS profiles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html)
-    YOUR-BUCKET s3://example-bucket
-    PREFIX Whatever directory your logs are in
-    YOUR-FILTER Something to match the logs you're interested in
+>> YOUR-PROFILE You should totally use [AWS profiles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html)
+>> YOUR-BUCKET s3://example-bucket
+>> PREFIX Whatever directory your logs are in
+>> YOUR-FILTER Something to match the logs you're interested in
 
 This gets you a bunch of .log files.  These are often most easily dealt with as one big log file so cat them together and sort them (because each lines starts with a timestamp this works fine).  I normally bin the original log files at this point.
 
