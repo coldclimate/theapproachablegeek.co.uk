@@ -1,6 +1,9 @@
 --- 
 title: Livestream
 ---
+
+Time chance!  It's likely to kick off at 20:00 now
+
 The live stream will be listed below.  Refresh this page if there's nothing lists.
 
 In the event of technical problems, I'll do my best to share video and pictures.
