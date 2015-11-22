@@ -1,7 +1,7 @@
 ---
 kind: article
 created_at: "2015-11-21"
-title: A quick look at the tools for raising charity donations
+title: Running a charity event like a marketing campaign
 ---
 
 Every few years I try and raise some money for a good cause and this year I decided to make that (St Mary's Hospice)[http://www.stmaryshospice.org.uk/] for the second time.  Unlike my lake swim last time I went for something a bit less dangerous but a whole lot more personal, shaving my head and waxing all the hair off my body.  To try and make as much cash as I could I used a few digital tools along the way.
@@ -71,12 +71,13 @@ There's nothing I've done that most geeks won't roll their eyes at, but put toge
 * Bit.ly for link shortening and tracking
 * Bambuser for live streaming
 
+## Things I'd do next time
 
+All relating to more promotion and better findability.
 
-
-
-
-
-
-
-I stuck to Just Giving again.  
+* Stuck to a hashtag and used it consistently 
+* Tweeted on the night even if somebody had to do it for me
+* Had some way people could have interacted with me on the night who weren't there (FaceTime "reward" maybe?)
+* Used something like [reframed.tv](http://reframed.tv) to pull it all together
+* Been more bolt with my asks.  The blog post from the Bristlr team was ace but I should have pushed this in local papers and other sites.
+* 
