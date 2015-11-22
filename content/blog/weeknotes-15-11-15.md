@@ -12,3 +12,8 @@ Only a two week gap this time.
 * Wrote [What is my job?](https://www.theapproachablegeek.co.uk/blog/what-is-why-job/)
 * Wrote [Parsing AWS Elastic Load Balancer log on the command line for fun and profit
 ](https://www.theapproachablegeek.co.uk/blog/parsing-elb-logs/)
+
+07976 956 090
+01437 710 357
+
+
