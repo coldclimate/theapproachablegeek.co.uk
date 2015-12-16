@@ -6,7 +6,8 @@ title: Everything I bought from Amazon in 2015, reviewed
 I did this last year and it highlighted a few interesting things.  Unfortunately this year  it just shows that I by books and then don't read them
 
 * [The Complete MAUS](https://www.amazon.co.uk/gp/product/0141014083/ref=oh_aui_detailpage_o06_s00?ie=UTF8&psc=1&tag=wwwcoldclimat-21 ) I've not read this yet.
-* [Witch Doctor, Vol. 1](https://www.amazon.co.uk/gp/product/1607064413/ref=oh_aui_detailpage_o04_s00?ie=UTP: Amazon.co.uk: Lukas Ketner, Brandon Seifert: 9781607066934: Books](https://www.amazon.co.uk/gp/product/1607066939/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1&tag=wwwcoldclimat-21 ) as good as the first part
+* [Witch Doctor, Vol. 1](https://www.amazon.co.uk/gp/product/1607064413/ref=oh_aui_detailpage_o04_s00ie=UTF8&psc=1&tag=wwwcoldclimat-21) tremendous stuff
+* [Witch Doctor, Vol. 2](https://www.amazon.co.uk/gp/product/1607066939/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1&tag=wwwcoldclimat-21) as good as the first part
 * [Really RELAXING Colouring Book 9: Gorgeous Geometrics: Volume 9): Amazon.co.uk: Elizabeth James: 9781908707949: Books](https://www.amazon.co.uk/gp/product/1908707941/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1&tag=wwwcoldclimat-21 ) Part of my attempt to learn to calm myself in the evenings. Some excellent patterns, some frustratingly unsymetrical.
 * [Hama Star 75 Tripod With free Carry Case](https://www.amazon.co.uk/gp/product/B000EOMQM2/ref=oh_aui_detailpage_o06_s00?ie=UTF8&psc=1&tag=wwwcoldclimat-21 ) Cheap but affective.  A bit whiffly.
 * [High-performance driving for yous](https://www.amazon.co.uk/gp/product/B000J3JMAW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1&tag=wwwcoldclimat-21 ) Bought because it was mentioned in a forum.  Aging. Unread.
