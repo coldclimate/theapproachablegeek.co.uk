@@ -24,17 +24,16 @@ Many year ago I was very stuck by an article called [Taco Bell Programming](http
 2. Grep out all product links because they handily have "gp/product" in them.  ```grep "gp/product" *.html | sort | uniq >> links.unique```
 3. Annoyingly the href's where split over multiple links so I've got the link but not the title.  Python to the rescue - loop though each product link, grab it, pull the title and then spit it all out as Markdown ready for the page (and bin off anything that errors because; sod it)
 
-```
-import urllib2
-with open("links.unique") as f:
-	content = f.readlines()
-	for link in content:
-		try:
-			soup = BeautifulSoup(urllib2.urlopen(link).read(), 'html.parser')
-			print ("[%s](%s)" % (soup.title.text,link))
-		except urllib2.HTTPError, err:
-			print
-```
+    import urllib2
+    with open("links.unique") as f:
+    	content = f.readlines()
+    	for link in content:
+    		try:
+    			soup = BeautifulSoup(urllib2.urlopen(link).read(), 'html.parser')
+    			print ("[%s](%s)" % (soup.title.text,link))
+    		except urllib2.HTTPError, err:
+    			print
+
 
 ## Jesus this is a mess, why didn't you just get Xpath to work?
 
