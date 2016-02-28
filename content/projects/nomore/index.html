@@ -1,57 +1,10 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>No More!</title>
-<style>
-/*
-Stupid thing built by @coldclimate
-*/
-
-/* Reset
-http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
-body { line-height: 1; }
-blockquote, q { quotes: none; }
-:focus { outline: 0; }
-abbr, acronym { cursor : help; }
-ins { text-decoration: none; }
-del { text-decoration: line-through; }
-table { border-collapse: collapse; border-spacing: 0; }
-caption, th { text-align: left; }
-th, td { vertical-align: top; }
-
-body { font: normal 75%/1.3333em ; background: #fff;  }
-
-h1,h2,h3,h4,h5,h6, p { font-weight : bold; font-family: Helvetica, Arial, sans-serif;}
-h1 { font-size : 85px; width:50%; font-family: "mahalia-1","mahalia-2"; text-shadow:rgba(0,0,0,.85) 4px 4px 5px, rgba(0,0,0,.65) 3px 3px 35px, rgba(85,113,163,0.15) 0px 0px 105px; ;  padding-bottom:55px; margin: 195px auto 45px auto; -webkit-text-stroke: 1.5px #000000;
--webkit-text-fill-color: #4622A3; }
-
-.shrinkwrap { width: 100%; margin: 0 auto; text-align:center; color:#fff; }
-
-a { text-decoration: none; font-weight: bold; color: #fff; }
-a:hover { color: #f5ab21; }
-
-p { x-webkit-transform: scale(1); -webkit-transition-timing-function: ease-in; -webkit-transition-duration: 250ms; text-shadow : rgba(0,0,0,.5) 1px 1px 1px, rgba(0,0,0,1) 2px 2px 5px; }
-p:hover{ x-webkit-transform: scale(1.25); -webkit-transition-timing-function: ease-out; -webkit-transition-duration: 250ms; text-shadow : rgba(0,0,0,0.65) 0px 3px 15px, rgba(0,0,0,1) 2px 2px 5px; }
-</style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
-</head>
-<body>
-
-<div class="shrinkwrap">
-    <h1>no<span id="comma">,</span> more <span id="word">now</span><span id="exclaim">!</span></h1>
-
-</div>
+<h1>no<span id="comma">,</span> more <span id="word">now</span><span id="exclaim">!</span></h1>
 
 <script type="text/javascript">
 $( document ).ready(function() {
-    $( "#comma" ).hide().delay(1000).fadeIn( 4000 );
-    $( "#exclaim" ).hide().delay( 1000 ).fadeIn( 4000 );
-});
-
-	var words=["gin", "electricity", "chocolate", "oiled wrestlers", "trees", "synergy", "woodlice", "addenda", "aircraft", "alumni", "analysis", "antenna", "antithesis", "appendices", "axis", "bacilli", "bacteria", "bases", "bison", "bureaus", "cacti", "château", "children", "codices", "crisis", "data", "deer", "diagnosis", "dice", "dwarfs", "ellipses", "faux pas", "fezes", "fish", "focu", "feet", "formulas", "fungi", "geese", "graffiti", "grouse", "halves", "hoofs", "lava", "loaves", "lice ", "media", "hypermedia", "minutiae", "mice", "nebulae", "nuclei", "offspring", "ova", "oxen", "parentheses", "phenomena", "radii", "referenda", "salmon", "scarfs", "sheep", "shrimp", "species", "stimulus", "swine", "symposia", "your mum", "teeth", "trout", "tuna", "vertebra", "vertices", "vortices", "wives", "wolves"];
+  var words=["gin", "electricity", "chocolate", "oiled wrestlers", "trees", "synergy", "woodlice", "addenda", "aircraft", "alumni", "analysis", "antenna", "antithesis", "appendices", "axis", "bacilli", "bacteria", "bases", "bison", "bureaus", "cacti", "château", "children", "codices", "crisis", "data", "deer", "diagnosis", "dice", "dwarfs", "ellipses", "faux pas", "fezes", "fish", "focu", "feet", "formulas", "fungi", "geese", "graffiti", "grouse", "halves", "hoofs", "lava", "loaves", "lice ", "media", "hypermedia", "minutiae", "mice", "nebulae", "nuclei", "offspring", "ova", "oxen", "parentheses", "phenomena", "radii", "referenda", "salmon", "scarfs", "sheep", "shrimp", "species", "stimulus", "swine", "symposia", "your mum", "teeth", "trout", "tuna", "vertebra", "vertices", "vortices", "wives", "wolves"];
 	if(window.location.hash) {
   	theWord=window.location.hash.substr(1);
 } else {
@@ -63,17 +16,9 @@ $( document ).ready(function() {
     	span.removeChild( span.firstChild );
 	}
 	span.appendChild( document.createTextNode(theWord) );
-</script>
+    $( "#comma" ).hide().delay(1000).fadeIn( 4000 );
+    $( "#exclaim" ).hide().delay( 1000 ).fadeIn( 4000 );
+});
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-4150109-19', 'auto');
-  ga('send', 'pageview');
 
 </script>
-</body>
-</html>
