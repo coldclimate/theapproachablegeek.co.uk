@@ -84,7 +84,7 @@ First up create a bucket for each and every variant of the URL you'll need.  Mos
 * www.theapproachablegeek.com
 * theapproachablegeek.com
 
-Not pick your canonical domain.  I went with www.theapproachablegeek.co.uk because I struggled to get theapproachablegeek.co.uk to work (I might have now solved this but I've not tested it).
+Now pick your canonical domain.  I went with www.theapproachablegeek.co.uk because I struggled to get theapproachablegeek.co.uk to work (I might have now solved this but I've not tested it).
 
 Click on your desired canonical bucket and click Properties.  Tick the option under Static Website Hosting for "Enable website hosting" and set your index page (probably index.html).
 
