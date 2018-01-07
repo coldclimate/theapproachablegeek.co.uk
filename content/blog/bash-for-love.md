@@ -17,30 +17,31 @@ First I gathered all the images into a directory from my Shotwell collecion and 
 #### Make them all JPG
 If I'd had any images with a different file type I'd have converted them now.  `convert` is part of ImageMagick and makes this super simple.
 
-```convert image.png image.jpg```
+```shell
+convert image.png image.jpg
+```
 
 #### Random order
 
 Because I was going to use the files with `ls` other then having a random file name makes this easier.  Punting the filename thought md5sum gives  nice random file to order.
 
-```
+```shell
 for FILE in `ls`
- do
- export NEWFILE=$(echo $FILE | md5sum| cut -f1 -d" ")
- mv $FILE $NEWFILE.jpg
- done
+do
+export NEWFILE=$(echo $FILE | md5sum| cut -f1 -d" ")
+mv $FILE $NEWFILE.jpg
+done
 ```
 
 #### Resize them
 
 I needed a bunch of images that were all the same size, but without having small images being blown up huge and blurring.  Step in convert, again.  `-extent` resizes the image, `-gravity center` centres it.
 
-```
+```shell
 for FILE in `ls *.jpg`
- do
- convert $NAME -gravity center -background white -extent 1600x1200 centred_${NAME}
- done
-
+do
+convert $NAME -gravity center -background white -extent 1600x1200 centred_${NAME}
+done
 ```
 
 #### String them all together
@@ -49,7 +50,7 @@ I messed about with `ffmepg` for hours (literally) trying to get the right magic
 
 The only flag I needed was `-delay` which is the numbe of milliseconds between frames
 
-```
+```shell
 convert -delay 100  -loop 0 *.jpg final.gif
 ```
 
