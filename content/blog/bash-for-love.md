@@ -45,7 +45,7 @@ for FILE in `ls *.jpg`
 
 #### String them all together
 
-I messed about with `ffmepg`` for hours (literally) trying to get the right magic incantations of flags.  Luckily, `convert` stepped in and saved the day.
+I messed about with `ffmepg` for hours (literally) trying to get the right magic incantations of flags.  Luckily, `convert` stepped in and saved the day.
 
 The only flag I needed was `-delay` which is the numbe of milliseconds between frames
 
