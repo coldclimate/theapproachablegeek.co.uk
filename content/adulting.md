@@ -45,6 +45,7 @@ Many thanks to all those who contributed.  Those who I can link to are [Jon i4De
 
 
 Life things
+
 * [Shoe polish](https://amzn.to/2GMn57r) - in the colours you have shoes, start with black
 * [Shoe brushes](https://amzn.to/2EAAHNv) - for polishing
 * [Superglue](https://amzn.to/2GNyKTE) - the gel stuff is much easier to use
