@@ -40,7 +40,7 @@ Many thanks to all those who contributed.  Those who I can link to are [Jon i4De
 * [Telescopic and foldering ladder](https://amzn.to/2Hr0B9k)
 * [A good hammer](https://amzn.to/2GNC9lo)
 * [Bucket](https://amzn.to/2qkCeCV)
-
+* [Hot air gun](https://amzn.to/2HnhLVb) - great for stripping paint but also makes amazing toast
 
 
 
@@ -57,6 +57,7 @@ Life things
 * [Tampons](https://amzn.to/2HqqaHC) and [sanitary towels](https://amzn.to/2v7V2u6) - even if you're not going to need them visitors might. Consider starting a [Tampon Club](http://www.tampon.club/) in your office
 * [A good flight bag](https://amzn.to/2EBICK7) - makes life so much easier in the air
 * [A good hoover](https://amzn.to/2EAyuSa).  There were some arguments for cordless stick hoovers, I'm not yet convinced.
+* An instant read themometer, either a [pokey one for food](https://amzn.to/2H9t59X) or a [contactless one](https://amzn.to/2qj3IYK)
 
 Got a suggestion?  Give me a shout.
 
