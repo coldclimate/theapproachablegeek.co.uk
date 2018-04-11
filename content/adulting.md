@@ -58,6 +58,7 @@ Many thanks to all those who contributed.  Those who I can link to are [Jon i4De
 * [Tampons](https://amzn.to/2HqqaHC) and [sanitary towels](https://amzn.to/2v7V2u6) - even if you're not going to need them visitors might. Consider starting a [Tampon Club](http://www.tampon.club/) in your office
 * [A good hoover](https://amzn.to/2EAyuSa).  There were some arguments for cordless stick hoovers, I'm not yet convinced.
 * An instant read themometer, either a [pokey one for food](https://amzn.to/2H9t59X) or a [contactless one](https://amzn.to/2qj3IYK)
+* [Heavy duty fishing line](https://amzn.to/2GPBqjJ) super useful, things like hanging pictures
 
 ### Road Warrior
 
