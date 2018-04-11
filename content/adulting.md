@@ -59,6 +59,7 @@ Many thanks to all those who contributed.  Those who I can link to are [Jon i4De
 * [A good hoover](https://amzn.to/2EAyuSa).  There were some arguments for cordless stick hoovers, I'm not yet convinced.
 * An instant read themometer, either a [pokey one for food](https://amzn.to/2H9t59X) or a [contactless one](https://amzn.to/2qj3IYK)
 * [Heavy duty fishing line](https://amzn.to/2GPBqjJ) super useful, things like hanging pictures
+* [Ziplock bags](https://amzn.to/2qn3qAf) Endlessly handy for sorting things. Great when travelling too.
 
 ### Road Warrior
 
