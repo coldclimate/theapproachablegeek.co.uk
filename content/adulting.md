@@ -44,7 +44,7 @@ Many thanks to all those who contributed.  Those who I can link to are [Jon i4De
 
 
 
-Life things
+### Life things
 
 * [Shoe polish](https://amzn.to/2GMn57r) - in the colours you have shoes, start with black
 * [Shoe brushes](https://amzn.to/2EAAHNv) - for polishing
@@ -56,9 +56,17 @@ Life things
 * [Keychain pillbox](https://amzn.to/2GN0sA6) - painkillers, antihistamins, important drugs
 * [First aid kit](https://amzn.to/2HoWLxx) 
 * [Tampons](https://amzn.to/2HqqaHC) and [sanitary towels](https://amzn.to/2v7V2u6) - even if you're not going to need them visitors might. Consider starting a [Tampon Club](http://www.tampon.club/) in your office
-* [A good flight bag](https://amzn.to/2EBICK7) - makes life so much easier in the air
 * [A good hoover](https://amzn.to/2EAyuSa).  There were some arguments for cordless stick hoovers, I'm not yet convinced.
 * An instant read themometer, either a [pokey one for food](https://amzn.to/2H9t59X) or a [contactless one](https://amzn.to/2qj3IYK)
+
+### Road Warrior
+
+* [Carabiners](https://amzn.to/2HgMt4W) handy for hooking things together
+* [A good flight bag](https://amzn.to/2EBICK7) - makes life so much easier in the air
+* [USB power pack](https://amzn.to/2INp5cu)
+* [Multi-charger USB cable](https://amzn.to/2qp4P9v)
+* [Universal Travel Adapter with USB ports](https://amzn.to/2GTl3mg)
+
 
 Got a suggestion?  Give me a shout.
 
