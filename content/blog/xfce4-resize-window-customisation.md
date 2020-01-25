@@ -10,9 +10,4 @@ I was expecting to be able to find a config file somewhere where I could tweak t
 
 Surprisingly, it turns out that it's not a configable value, you have to resize an image.   My theme is Greybird, so here's an ugly hack to make the grippy corner 4x bigger.
 
-'''
-
- sudo convert /usr/share/themes/Greybird/gtk-2.0/resize_grip.png -resize 80x80 /usr/share/themes/Greybird/gtk-2.0/resize_grip.png
- 
-
-'''
+'sudo convert /usr/share/themes/Greybird/gtk-2.0/resize_grip.png -resize 80x80 /usr/share/themes/Greybird/gtk-2.0/resize_grip.png'
