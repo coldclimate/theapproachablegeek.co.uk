@@ -1,0 +1,63 @@
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
+
+	<style type="">
+		
+		body {
+  			padding: 30px;
+}
+
+a {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #000;
+  font-family: Arial, sans-serif;
+}
+
+	</style>
+</head>
+<body>
+
+<a id="play-video" href="#">Bring the noise</a><br/>
+ 
+<iframe id="video" width="420" height="315" src="//www.youtube.com/embed/HRECVdWGEmA?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe id="video1" width="420" height="315" src="//www.youtube.com/embed/HRECVdWGEmA?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe id="video2" width="420" height="315" src="//www.youtube.com/embed/HRECVdWGEmA?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe id="video3" width="420" height="315" src="//www.youtube.com/embed/HRECVdWGEmA?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe id="video4" width="420" height="315" src="//www.youtube.com/embed/HRECVdWGEmA?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe id="video5" width="420" height="315" src="//www.youtube.com/embed/HRECVdWGEmA?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+
+<script type="text/javascript">
+	
+$(document).ready(function() {
+  $('#play-video').on('click', function(ev) {
+ 
+    $("#video")[0].src += "&autoplay=1";
+    debugger;
+    var counter=1;
+    var myVar = setInterval(myTimer, 7000);
+
+	function myTimer() {
+		console.log("#video"+counter);
+  		 $("#video"+counter)[0].src += "&autoplay=1";
+  		 counter++;
+  		 console.log("#video"+counter);
+	}
+
+   
+   
+    if(counter==6){
+    	clearInterval(myVar);
+    }
+
+    ev.preventDefault();
+ 
+  });
+});
+
+</script>
+</body>
+</html>
