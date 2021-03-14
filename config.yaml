@@ -36,11 +36,11 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+        favicon: "/site/me_32.png"
+        favicon16x16: "/site/me_16.png"
+        favicon32x32: "/site/me_32.png"
+        apple_touch_icon: "/site/me_32.png"
+        safari_pinned_tab: "/site/me_32.png"
 
     label:
         text: "The Approachable Geek"
@@ -49,21 +49,25 @@ params:
 
     # profile-mode
     profileMode:
-        enabled: false # needs to be explicitly set
-        title: The Approachable Geek
-        subtitle: "This is subtitle"
-        imageUrl: "<img location>"
+        enabled: true # needs to be explicitly set
+        title: "Hello \U0001F44B"
+        subtitle: "I'm Oli Wood.  I've been building things online since the mid 1990s and these days mostly work in the areas of cloud based infrastructure and operations.  Have a nose about though my (very infrequent) blog posts and projects, or say hello elsewhere."
+        imageUrl: "/site/me.png"
         imageWidth: 120
         imageHeight: 120
         imageTitle: my image
         buttons:
-            - name: Posts
-              url: posts
-            - name: Tags
-              url: tags
+            - name: Blog
+              url: post
+#            - name: Tags
+#              url: tags
+#            - name: Projects
+#              url: projects
+
 
     # home-info mode
     homeInfoParams:
+        enabled: false
         Title: "Hello \U0001F44B"
         Content: I'm Oli Wood.  I've been building things online since the mid 1990s and these days mostly work in the areas of cloud based infrastructure and operations.  Have a nose about though my (very infrequent) blog posts or projects.
 
@@ -100,10 +104,7 @@ menu:
           name: tags
           url: /tags/
           weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
-          weight: 30
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:

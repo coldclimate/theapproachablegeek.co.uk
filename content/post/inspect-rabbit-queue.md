@@ -1,7 +1,7 @@
 ---
 date: "2013-10-27"
 title: Inspecting messages in a RabbitMQ queue, ghetto style
-tags: ["conference"]
+tags: ["command line","debugging"]
 author: Me
 showToc: false
 TocOpen: false

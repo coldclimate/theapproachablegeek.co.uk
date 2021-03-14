@@ -19,7 +19,7 @@ I heard about [Bacon(things developers love)](http://devslovebacon.com/) a few y
 After an incredible two days (this is probably the best tech orientated conference I've been to), I'm shattered and exicted, riled up and exhausted all at the same time.  This is a very long train journey.
 
 
-## Stabes and Volatiles - Michael Lopp - @rands
+## Stabes and Volatiles - Michael Lopp - [@rands](https://www.twitter.com/@rands)
 There's a reason the Rands blog and books have such a following, and it's because he's such a clear thinker and such an insparational chap.  The 3 year itch and the phrase "I could not see the means to learn anymore" came up in the pub again and again, they really resolnated with the crowd.  Our LinkedIn profiles are full of jobs lasting 3 years, and it's because after three years smart engineers get bored.  The techniques for dealing with stable and volotile personalities will no doubt come in useful at some point in the future.
 
 Key take away for me: retrospecitvely explaining my career choices to date.
