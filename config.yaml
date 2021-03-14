@@ -1,0 +1,116 @@
+baseURL: "https://www.theapproachablegeek.co.uk"
+title: The Approachable Geek
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics:
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: The Approachable Geek
+    description: "the semi-professional online ramblings of Oli Wood"
+    author: Oli Wood
+    # author: ["Me", "You"] # multiple authors
+    images: ["<link or path of image for opengraph, twitter-cards>"]
+
+    defaultTheme: light # dark, light
+    disableThemeToggle: false
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    disableSpecial1stPost: false
+    comments: false
+    hidemeta: false
+    showtoc: false
+    tocopen: false
+
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        favicon: "/site/me_32.png"
+        favicon16x16: "/site/me_16.png"
+        favicon32x32: "/site/me_32.png"
+        apple_touch_icon: "/site/me_32.png"
+        safari_pinned_tab: "/site/me_32.png"
+
+    label:
+        text: "The Approachable Geek"
+        icon: /site/me.png
+        iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: true # needs to be explicitly set
+        title: "Hello \U0001F44B"
+        subtitle: "I'm Oli Wood.  I've been building things online since the mid 1990s and these days mostly work in the areas of cloud based infrastructure and operations.  Have a nose about though my (very infrequent) blog posts and projects, or say hello elsewhere."
+        imageUrl: "/site/me.png"
+        imageWidth: 120
+        imageHeight: 120
+        imageTitle: my image
+        buttons:
+            - name: Blog
+              url: post
+#            - name: Tags
+#              url: tags
+#            - name: Projects
+#              url: projects
+
+
+    # home-info mode
+    homeInfoParams:
+        enabled: false
+        Title: "Hello \U0001F44B"
+        Content: I'm Oli Wood.  I've been building things online since the mid 1990s and these days mostly work in the areas of cloud based infrastructure and operations.  Have a nose about though my (very infrequent) blog posts or projects.
+
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/coldclimate"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/oliwood/"
+
+    analytics:
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+menu:
+    main:
+        - identifier: blog
+          name: blog
+          url: /post/
+          weight: 10
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 20
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai

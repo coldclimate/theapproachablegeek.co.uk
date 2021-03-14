@@ -1,0 +1,74 @@
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
+
+	<style type="">
+		
+		body {
+  			padding: 30px;
+}
+
+a {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #000;
+  font-family: Arial, sans-serif;
+}
+
+	</style>
+</head>
+<body>
+
+<select id="genre" name="genre">
+  <option value="1">sci fi</option>
+  <option value="2">horror</option>
+  <option value="3">romance</option>
+</select>
+
+<select id="length" name="length">
+  <option value="60"> less than an hour</option>
+  <option value="90">less than 90 minutes</option>
+  <option value="120">less than 2 hours</option>
+  <option value="180">less than 3 hours</option>
+  <option value="3000">freaking endless</option>
+</select>
+
+<select id="rating" name="rating">
+  <option value="1">less than 1 star</option>
+  <option value="2">less than 2 star</option>
+  <option value="3">less than 3 star</option>
+  <option value="4">less than 4 star</option>
+  <option value="5">less than 5 star</option>
+</select>
+
+<script type="text/javascript">
+	
+$(document).ready(function() {
+  $('#play-video').on('click', function(ev) {
+ 
+    $("#video")[0].src += "&autoplay=1";
+    debugger;
+    var counter=1;
+    var myVar = setInterval(myTimer, 7000);
+
+	function myTimer() {
+		console.log("#video"+counter);
+  		 $("#video"+counter)[0].src += "&autoplay=1";
+  		 counter++;
+  		 console.log("#video"+counter);
+	}
+
+   
+   
+    if(counter==9){
+    	clearInterval(myVar);
+    }
+
+    ev.preventDefault();
+ 
+  });
+});
+
+</script>
+</body>
+</html>
