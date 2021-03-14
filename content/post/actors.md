@@ -18,7 +18,7 @@ A little while ago I wrote some terrible code which took data from <a href="http
 Originally I used GraphViz to produce some slightly clunky maps, but it turned out <a href="https://github.com/mbostock/d3/wiki/Force-Layout">D3 Force Graphs</a> were easy enough to implement and pretty.  I&#8217;ve <a href="https://github.com/coldclimate/actordata">published the Python</a> script I used to pull data across.
 
 This still renders badly (I&#8217;m not CSS master) but this great wobbily bugger represents the main cast members of <a href="http://www.imdb.com/title/tt0137523/">Fightclub</a>.  <a href="view-source:http://www.theapproachablegeek.co.uk/blog/actormaps/">View the source</a> of this page for the JS.
-
+{{< rawhtml >}}
 <div id="hook"></div>
 
 <style>
@@ -184,3 +184,4 @@ var legend = svg.append("g")
       });
 </script>
 
+{{< /rawhtml >}}

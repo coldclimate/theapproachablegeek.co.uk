@@ -14,6 +14,7 @@ disableHLJS: false
 searchHidden: true
 ---
 
+{{< rawhtml >}}
 <h2 id="time">TIME</h2>
 <h3 id="factors">FACTORS</h3>
 
@@ -107,6 +108,8 @@ function dotime(){
 updateDisplay();
 
 </script>
+
+{{< /rawhtml >}}
 
   Edited 20-12-14: I ran across this brilliant [What color is it](http://whatcolorisit.sumbioun.com/) and couldn't resist bolting on the rather neat idea of colours based on the time.
 

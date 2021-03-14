@@ -13,12 +13,7 @@ disableShare: false
 disableHLJS: false
 searchHidden: true
 ---
-<link type="text/css" rel="stylesheet" href="/_assets/rickshaw/graph.css">
-<link type="text/css" rel="stylesheet" href="/_assets/rickshaw/detail.css">
-<link type="text/css" rel="stylesheet" href="/_assets/rickshaw/legend.css">
-<link type="text/css" rel="stylesheet" href="/_assets/rickshaw/lines.css">
-<script src="/_assets/rickshaw/d3.js"></script>
-<script src="/_assets/rickshaw/rickshaw.js"></script>
+
 
 I had some time to kill on the train to Devs Love Bacon, and limited internet access, so I was looking for an offline project to play with and learn something new in a couple of hours.  Step in [Rickshaw](http://code.shutterstock.com/rickshaw/) a graphing library built on [D3](http://d3js.org/) it's a quick way to make beutiful interactive graphs.
 
@@ -35,7 +30,11 @@ A couple of notes on things I stumbled upon along the way.  I started by pinchin
 * There's a bug in my hovercard which shows the date at 1970.  I'll get back to this.
 
 
+{{< rawhtml >}}
 
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rickshaw/1.7.1/rickshaw.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.6.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rickshaw/1.7.1/rickshaw.min.js"></script>
 
 <div id="chart_container">
 	<div id="chart"></div>
@@ -49,173 +48,10 @@ A couple of notes on things I stumbled upon along the way.  I started by pinchin
 
 var seriesData = [];
 
-seriesData[0] = [{
-	x: 2011,
-	y: 177500
-}, {
-	x: 2010,
-	y: 177500
-}, {
-	x: 2008,
-	y: 177500
-}, {
-	x: 2007,
-	y: 177500
-}, {
-	x: 2005,
-	y: 153000
-}, {
-	x: 2004,
-	y: 150000
-}, {
-	x: 2003,
-	y: 150000
-}, {
-	x: 2000,
-	y: 100000
-}, {
-	x: 1999,
-	y: 100500
-}, {
-	x: 1998,
-	y: 100500
-}, {
-	x: 1997,
-	y: 90000
-}, {
-	x: 1995,
-	y: 80000
-}, {
-	x: 1994,
-	y: 80000
-}, {
-	x: 1993,
-	y: 80000
-}, {
-	x: 1992,
-	y: 70000
-}, {
-	x: 1990,
-	y: 70000
-}, {
-	x: 1989,
-	y: 65000
-}, {
-	x: 1987,
-	y: 60000
-}, {
-	x: 1986,
-	y: 60000
-}, {
-	x: 1985,
-	y: 40000
-}, {
-	x: 1984,
-	y: 35000
-}, {
-	x: 1983,
-	y: 30000
-}, {
-	x: 1982,
-	y: 25000
-}, {
-	x: 1981,
-	y: 18000
-}, {
-	x: 1979,
-	y: 12000
-}, {
-	x: 1978,
-	y: 500
-}, {
-	x: 1971,
-	y: 12000
-}, {
-	x: 1970,
-	y: 1500
+seriesData[0] = [{x: 2011, y: 177500 }, {x: 2010, y: 177500 }, {x: 2008, y: 177500 }, {x: 2007, y: 177500 }, {x: 2005, y: 153000 }, {x: 2004, y: 150000 }, {x: 2003, y: 150000 }, {x: 2000, y: 100000 }, {x: 1999, y: 100500 }, {x: 1998, y: 100500 }, {x: 1997, y: 90000 }, {x: 1995, y: 80000 }, {x: 1994, y: 80000 }, {x: 1993, y: 80000 }, {x: 1992, y: 70000 }, {x: 1990, y: 70000 }, {x: 1989, y: 65000 }, {x: 1987, y: 60000 }, {x: 1986, y: 60000 }, {x: 1985, y: 40000 }, {x: 1984, y: 35000 }, {x: 1983, y: 30000 }, {x: 1982, y: 25000 }, {x: 1981, y: 18000 }, {x: 1979, y: 12000 }, {x: 1978, y: 500 }, {x: 1971, y: 12000 }, {x: 1970, y: 1500
 }];
 
-seriesData[1] = [{
-	x: 2011,
-	y: 195
-}, {
-	x: 2010,
-	y: 185
-}, {
-	x: 2008,
-	y: 175
-}, {
-	x: 2007,
-	y: 145
-}, {
-	x: 2005,
-	y: 125
-}, {
-	x: 2004,
-	y: 112.00
-}, {
-	x: 2003,
-	y: 105
-}, {
-	x: 2002,
-	y: 97
-}, {
-	x: 2000,
-	y: 87
-}, {
-	x: 1999,
-	y: 83
-}, {
-	x: 1998,
-	y: 80
-}, {
-	x: 1997,
-	y: 75
-}, {
-	x: 1995,
-	y: 70
-}, {
-	x: 1994,
-	y: 64
-}, {
-	x: 1993,
-	y: 62
-}, {
-	x: 1992,
-	y: 53
-}, {
-	x: 1990,
-	y: 41
-}, {
-	x: 1989,
-	y: 30
-}, {
-	x: 1987,
-	y: 21
-}, {
-	x: 1986,
-	y: 18
-}, {
-	x: 1985,
-	y: 16.90
-}, {
-	x: 1984,
-	y: 13.8
-}, {
-	x: 1983,
-	y: 12.8
-}, {
-	x: 1982,
-	y: 8
-}, {
-	x: 1981,
-	y: 8
-}, {
-	x: 1979,
-	y: 5
-}, {
-	x: 1970,
-	y: 1
+seriesData[1] = [{x: 2011, y: 195 }, {x: 2010, y: 185 }, {x: 2008, y: 175 }, {x: 2007, y: 145 }, {x: 2005, y: 125 }, {x: 2004, y: 112.00 }, {x: 2003, y: 105 }, {x: 2002, y: 97 }, {x: 2000, y: 87 }, {x: 1999, y: 83 }, {x: 1998, y: 80 }, {x: 1997, y: 75 }, {x: 1995, y: 70 }, {x: 1994, y: 64 }, {x: 1993, y: 62 }, {x: 1992, y: 53 }, {x: 1990, y: 41 }, {x: 1989, y: 30 }, {x: 1987, y: 21 }, {x: 1986, y: 18 }, {x: 1985, y: 16.90 }, {x: 1984, y: 13.8 }, {x: 1983, y: 12.8 }, {x: 1982, y: 8 }, {x: 1981, y: 8 }, {x: 1979, y: 5 }, {x: 1970, y: 1
 }];
 
 
@@ -287,4 +123,6 @@ var axes = new Rickshaw.Graph.Axis.Time( {
 	graph: graph
 } );
 axes.render();
+</script>
 
+{{< /rawhtml >}}

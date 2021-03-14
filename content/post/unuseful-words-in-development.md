@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2013-12-08"
+date: "2013-12-08"
 title: Less than useful words when developing
+tags: ["culture"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 
 When discussing code it's all to easy to use words and language which express your feelings but add nothing to everybody's understanding of the situation.  Over the last few weeks I've been trying to catch and correct myself (we've a new team member and there's a lot of our stack to learn so it felt important)
