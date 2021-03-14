@@ -44,7 +44,7 @@ params:
 
     label:
         text: "The Approachable Geek"
-        icon: /apple-touch-icon.png
+        icon: /site/me.png
         iconHeight: 35
 
     # profile-mode
@@ -92,9 +92,9 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: categories
-          name: categories
-          url: /categories/
+        - identifier: blog
+          name: blog
+          url: /post/
           weight: 10
         - identifier: tags
           name: tags
