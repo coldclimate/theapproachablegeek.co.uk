@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2015-01-03"
+date: "2015-01-03"
 title: ChocOps
+tags: ["data"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 
 Such is the nature of an office at Christmas, there were several large boxes of chocolates knocking about.  I jokingly organised them into groups, forming a bar graph reminiscent of the [NOC](http://en.wikipedia.org/wiki/Network_operations_center) screens that hover above our team.  Everybody laughed, jokes were made about the OCD nature of our team, and chocolates got eaten.

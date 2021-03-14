@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2015-07-01"
+date: "2015-07-01"
 title: An acronym for data jobs
+tags: ["ops","dat ajobs"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 
 Pretty much every job I've worked on has involved large, single run data jobs in one for or another, be they regularly run over night batch jobs, data migrations to support application code deployments (try to avoid this - [read this brilliant article](http://www.brunton-spall.co.uk/post/2014/05/06/database-migrations-done-right/)) or jobs to clean up mistakes in the customer data, and, almost without exception, they've been a source of misery.

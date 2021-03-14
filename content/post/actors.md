@@ -1,13 +1,23 @@
 ---
-kind: article
-created_at: "2014-05-03"
+date: "2014-05-03"
 title: Actor Maps
+tags: ["d3"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
-<p>A little while ago I wrote some terrible code which took data from <a href="http://themoviedb.org/">themoviedb.org</a> and pulled all the actors you listed found every film they&#8217;d been involved in.  The original idea was to produce maps a little like the fabulous Tube map (which I&#8217;ve always had a bit of a love for).  It turned out that making the things that look like the tube map is hard, but the data was interesting.  Specifically what was interesting was were actors turned out to have been in numerous films together.</p>
+A little while ago I wrote some terrible code which took data from <a href="http://themoviedb.org/">themoviedb.org</a> and pulled all the actors you listed found every film they&#8217;d been involved in.  The original idea was to produce maps a little like the fabulous Tube map (which I&#8217;ve always had a bit of a love for).  It turned out that making the things that look like the tube map is hard, but the data was interesting.  Specifically what was interesting was were actors turned out to have been in numerous films together.
 
-<p>Originally I used GraphViz to produce some slightly clunky maps, but it turned out <a href="https://github.com/mbostock/d3/wiki/Force-Layout">D3 Force Graphs</a> were easy enough to implement and pretty.  I&#8217;ve <a href="https://github.com/coldclimate/actordata">published the Python</a> script I used to pull data across. </p>
+Originally I used GraphViz to produce some slightly clunky maps, but it turned out <a href="https://github.com/mbostock/d3/wiki/Force-Layout">D3 Force Graphs</a> were easy enough to implement and pretty.  I&#8217;ve <a href="https://github.com/coldclimate/actordata">published the Python</a> script I used to pull data across.
 
-<p>This still renders badly (I&#8217;m not CSS master) but this great wobbily bugger represents the main cast members of <a href="http://www.imdb.com/title/tt0137523/">Fightclub</a>.  <a href="view-source:http://www.theapproachablegeek.co.uk/blog/actormaps/">View the source</a> of this page for the JS.</p>
+This still renders badly (I&#8217;m not CSS master) but this great wobbily bugger represents the main cast members of <a href="http://www.imdb.com/title/tt0137523/">Fightclub</a>.  <a href="view-source:http://www.theapproachablegeek.co.uk/blog/actormaps/">View the source</a> of this page for the JS.
 
 <div id="hook"></div>
 

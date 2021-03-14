@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2011-01-06"
+date: "2011-01-06"
 title: Measuring electricity usage for your business
+tags: ["data"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 For a few years I’ve been interested in reducing my environmental footprint, and the footprint of my business. Working from home this naturally means reducing the amount of energy my home is using. The first step on this road is measuring how much energy you use, and to a certain extent being aware of how much energy you’re using will lead to you reducing the amount.
 

@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2012-06-18"
+date: "2012-06-18"
 title: A creature of habit
+tags: ["habit"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 A few weeks ago Joel Gascoigne,a chap who I’ve really come to admire since I first ran across him 18 months ago wrote a brilliant blog post about [building an excerise habit](http://joel.is/post/24064139389/the-exercise-habit).  I’m yet to get regular exercise into my routine (I will, I’ve identified the slot in the day), but it reminded me of a post I wrote years ago about having a daily routine.  Over the intervening years my routine has changed, and I thought it was time to rewrite the post.
 

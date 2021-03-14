@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2018-01-07"
+date: "2018-01-07"
 title: Bash in the name of love
+tags: ["bash"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 
 For my aniversary I tried to express my love in the most pure form I could, making an animated gif of great moments in your relationship.  Obviously my tool of choice where was bash, because I could have used a gui tool but where's the fun in that.

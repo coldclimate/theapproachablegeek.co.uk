@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2014-10-12"
+date: "2014-10-12"
 title: Extract location data Google has about you, and stick it on a map
+tags: ["data", "bash"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 
 I love my Android phone, its great having a bit of kit I can mess with but that just works out of the box.  Since Google retired Google Latitude I'd forgotten then my mobile knows exactly where I am and generally I don't mind this, it helps my phone show me smarter information, but it's my data and damn it, I want it.  Eventually I'll get round to writing a simple backend to store my location (it's yet another thing I didn't do in my time off), however I'd like to get out all my historic data.

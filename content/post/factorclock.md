@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2014-03-17"
+date: "2014-03-17"
 title: XKCD Inspired Factor Clock
+tags: ["javascript","xkcd"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 
 <h2 id="time">TIME</h2>
@@ -98,7 +108,7 @@ updateDisplay();
 
 </script>
 
-  Edited 20-12-14: I ran across this brilliant [What color is it](http://whatcolourisit.scn9a.org/) and couldn't resist bolting on the rather neat idea of colours based on the time.
+  Edited 20-12-14: I ran across this brilliant [What color is it](http://whatcolorisit.sumbioun.com/) and couldn't resist bolting on the rather neat idea of colours based on the time.
 
 Yesterday I found my XKCD book that I was given for Christmas and whilst leafing through it ran across this gem [about factoring the time](https://xkcd.com/247/).
 

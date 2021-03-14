@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2011-05-21"
+date: "2011-05-21"
 title: Making timelapse films with open source firmware and cheap hardware
+tags: ["timelapse"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 I fell in love with timelapse films as a child. There really is something magic about watching plants growing in front of your eyes, or seeing landscapes grow and evolve right in front of you. Creating timelapse films used to be the preserve of the professionals with hugely expensive kit, but no longer.
 

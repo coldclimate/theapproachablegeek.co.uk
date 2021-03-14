@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2014-05-25"
+date: "2014-05-25"
 title: A quick and dirty experiment with Rickshaw
+tags: ["javascript"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 <link type="text/css" rel="stylesheet" href="/_assets/rickshaw/graph.css">
 <link type="text/css" rel="stylesheet" href="/_assets/rickshaw/detail.css">

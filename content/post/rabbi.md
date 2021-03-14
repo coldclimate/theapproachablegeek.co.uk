@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2013-06-01"
+date: "2013-06-01"
 title: Find yourself a rabbi in business
+tags: ["career"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 
 A note before I start, this is the second article I'm writing based on votes from [http://helpmewrite.co/](http://helpmewrite.co)

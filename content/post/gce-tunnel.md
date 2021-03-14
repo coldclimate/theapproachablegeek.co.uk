@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2013-04-07"
+date: "2013-04-07"
 title: How to set up an SSH tunnel with Google Compute Engine
+tags: ["gce"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 Recently I've been doing a tonne of work with [Google Compute Engine](https://cloud.google.com/products/compute-engine), Google's equivalent of Amazon EC2 and S3.  It's good, very good, and I'll write up more about how we're using it at a later date.
 

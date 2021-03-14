@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2014-05-24"
+date: "2014-05-24"
 title: Devs Love Bacon 14
+tags: ["conference"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 
 I heard about [Bacon(things developers love)](http://devslovebacon.com/) a few years ago from friends who went (and lvoed it).  I bought a ticket last year but had to go on holiday instead and missed it.  I was determined to be there this year, and it was worth every minute and penny.  It's a twin track conference so decisions about what to see in each session had to be made, so where I hada clash I chose to go to the less code orinetated session (code can be read later).  

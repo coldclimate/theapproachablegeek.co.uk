@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2012-09-30"
-title: What homebrew weather tracking can teach you about USb debugging
+date: "2012-09-30"
+title: What homebrew weather tracking can teach you about USB debugging
+tags: ["tinkering"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 I bought a [cheap and cheerful weather station](http://www.maplin.co.uk/usb-wireless-weather-forecaster-223254) a few years ago because it was on offer in Maplins (yes, I shouldn't be allowed to go the on my own).  Seeing what the weather is up to is interesting enough, but generating graphs and tracking over time is much more interesting.
 

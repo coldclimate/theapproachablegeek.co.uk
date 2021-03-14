@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2015-05-17"
+date: "2015-05-17"
 title: Geek Hero Syndrome
+tags: ["culture"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 
 

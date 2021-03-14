@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2016-02-20"
+date: "2016-02-20"
 title: Turning off all retweets 
+tags: ["twitter", "python"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 
 ## The back story

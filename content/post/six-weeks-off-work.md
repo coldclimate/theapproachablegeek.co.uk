@@ -1,7 +1,17 @@
 ---
-kind: article
-created_at: "2014-10-02"
+date: "2014-10-02"
 title: Six weeks off work
+tags: ["life", "career"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
 ---
 
 Today is my last day of freedom.  On Monday morning I'll be starting a new job, with a new company, in a new office, with a new commute (driving there in a new car) and meeting new people to do new things for new customers.  All new. Scary, but fun.
