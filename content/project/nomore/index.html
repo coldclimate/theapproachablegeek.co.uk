@@ -1,4 +1,19 @@
-
+---
+date: "2020-05-03"
+title: No more gfarce
+tags: ["project", "javascript"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
+---
+{{< rawhtml >}}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
 <h1>no<span id="comma">,</span> more <span id="word">now</span><span id="exclaim">!</span></h1>
 
@@ -16,9 +31,10 @@ $( document ).ready(function() {
     	span.removeChild( span.firstChild );
 	}
 	span.appendChild( document.createTextNode(theWord) );
-    $( "#comma" ).hide().delay(1000).fadeIn( 4000 );
-    $( "#exclaim" ).hide().delay( 1000 ).fadeIn( 4000 );
+    $( "#comma" ).hide().delay(0).fadeIn( 6000 );
+    $( "#exclaim" ).hide().delay( 0 ).fadeIn( 6000 );
 });
 
 
 </script>
+{{< /rawhtml >}}
