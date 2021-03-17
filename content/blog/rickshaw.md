@@ -68,8 +68,8 @@ seriesData[1].sort(compare);
 
 
 // hand made scales, could use max and min to get the right values
-var scaleA = d3.scale.linear().domain([0, 200000]);
-var scaleP = d3.scale.linear().domain([0, 200]);
+var scaleA = d3.scaleLinear().domain([0, 200000]);
+var scaleP = d3.scaleLinear().domain([0, 200]);
 
 
 

@@ -22,6 +22,6 @@ The next day there was a new box of chocolates, so I did the same, only this tim
 
 It's daft I know, but I've never before seen such a clear example of the difference between data and information, or how the choice of display so greatly affects how quickly and easily you can get the actionable information you need.
 
-![Bar Chart: Information (in this case)](/_assets/images/post_content/bargraph.jpg "Bar Chart: Information (in this case)")
+![Bar Chart: Information (in this case)](/images/bargraph.jpg "Bar Chart: Information (in this case)")
 
-![Pie Chart: Data (in this case)](/_assets/images/post_content/piegraph.jpg "Pie Chart: Just data (in this case)")
+![Pie Chart: Data (in this case)](/images/piegraph.jpg "Pie Chart: Just data (in this case)")

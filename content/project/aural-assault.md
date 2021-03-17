@@ -1,23 +1,24 @@
-<html>
-<head>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
+---
+date: "2020-05-03"
+title: Aural Assault
+tags: ["project", "javascript", "the prodigy"]
+author: Me
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: true
+---
 
-	<style type="">
-		
-		body {
-  			padding: 30px;
-}
+Based on something I saw ears ago at The baltic that I've never managed to track down.
 
-a {
-  display: inline-block;
-  margin-bottom: 20px;
-  color: #000;
-  font-family: Arial, sans-serif;
-}
+{{< rawhtml >}}
 
-	</style>
-</head>
-<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
 
 <a id="play-video" href="#">Bring the noise</a><br/>
  
@@ -63,5 +64,5 @@ $(document).ready(function() {
 });
 
 </script>
-</body>
-</html>
+
+{{< /rawhtml >}}

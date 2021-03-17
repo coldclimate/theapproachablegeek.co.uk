@@ -45,10 +45,7 @@ Restarting udev with "service udev restart" resulted in the weather station now 
 PYWWS has some great scripts for both pulling data from your weather station and generating graphs an with a little bit of crontab, scp and scripts, here they are live and updated every few hours.  It's worth nothing that the week and month graphs are pretty dull at the moment as they're only a few hours old.
 
 
-![A day of Gateshead weather](/graphs/weather/24hrs.png "A day of Gateshead weather")
-![A week of Gateshead weather](/graphs/weather/7days.png "A week of Gateshead weather")
-![A month of Gateshead weather](/graphs/weather/28days.png "A month of Gateshead weather")
-
+*There used to be images here, now lost in time*
 
 
 
