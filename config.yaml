@@ -1,6 +1,6 @@
 baseURL: "https://www.theapproachablegeek.co.uk"
 title: The Approachable Geek
-paginate: 5
+paginate: 10
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -58,7 +58,7 @@ params:
         imageTitle: my image
         buttons:
             - name: Blog
-              url: post
+              url: blog
 #            - name: Tags
 #              url: tags
 #            - name: Projects
@@ -98,8 +98,12 @@ menu:
     main:
         - identifier: blog
           name: blog
-          url: /post/
+          url: /blog/
           weight: 10
+        - identifier: projects
+          name: projects
+          url: /project/
+          weight: 20
         - identifier: tags
           name: tags
           url: /tags/
