@@ -46,6 +46,14 @@ Eventually I bought a camera especially for making timelapses, as documented on 
 I've been messing around for a few years with [Solarcans](https://solarcan.co.uk/) and they are excellent and fun things.  I've handrolled a few too, with thanks to Sam at Solarcans, reusing various tins and cans.
 
 
+
+### My original can
+
+A birthday present from a good friend.  The tree is sadly no longer there.  The can came free and ended up rolling around in the garden for a few week.
+
+![Pie](/images/solarcans/solarcan-original.jpg "original can")
+![Pie](/images/solarcans/solarcan-original-coloured.jpg "original can solarized")
+
 ### Mustard tin
 
 The hole was too big.
