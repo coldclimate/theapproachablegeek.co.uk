@@ -49,28 +49,34 @@ I've been messing around for a few years with [Solarcans](https://solarcan.co.uk
 
 ### My original can
 
-A birthday present from a good friend.  The tree is sadly no longer there.  The can came free and ended up rolling around in the garden for a few week.
+A birthday present from a good friend.  The tree is sadly no longer there.  The can came free and ended up rolling around in the garden for a few week, leading to some water ingress.
 
-![Pie](/images/solarcans/solarcan-original.jpg "original can")
-![Pie](/images/solarcans/solarcan-original-coloured.jpg "original can solarized")
+![The original image](/images/solarcans/solarcan-original.jpg "original can")
+![After being solarized](/images/solarcans/solarcan-original-coloured.jpg "original can solarized")
+
+I left a can attached to a tree for 16 months, from January 2020 until April 2021 (thanks lockdown!).  It must have slipped at some point, leading to the gap in the arcs.
+
+
+
+![16 month exposure](/images/solarcans/farm-2020-2021-coloured.jpg "16 months of exposure")
 
 ### Mustard tin
 
 The hole was too big.
 
-![Pie](/images/solarcans/mustard-placement.jpg "Mustard tin placement")
-![Pie](/images/solarcans/mustard-invert.png "Mustard tin exposure")
+![Mustard tin placement](/images/solarcans/mustard-placement.jpg "Mustard tin placement")
+![Mustard tin exposure](/images/solarcans/mustard-invert.png "Mustard tin exposure")
 
 ### Redbull can with 3 holes
 
 Multiple exposures are fun
 
-![Pie](/images/solarcans/tripple2-invert.png "Tripple hole exposure")
-![Pie](/images/solarcans/tripple2-invert-colours.png "Colours messed with")
+![Triple hole exposure](/images/solarcans/tripple2-invert.png "Triple hole exposure")
+![Colours messed with](/images/solarcans/tripple2-invert-colours.png "Colours messed with")
 
 ### Azera coffee tin
 
 Lots of water ingress.  I don't understand why there's not a clear trail here.
 
-![Pie](/images/solarcans/coffeecan-scaled.png "Coffee tin as scanned")
-![Pie](/images/solarcans/coffeecan-inverted.png "Coffee tin inverted")
+![Coffee tin as scanned](/images/solarcans/coffeecan-scaled.png "Coffee tin as scanned")
+![Coffee tin inverted](/images/solarcans/coffeecan-inverted.png "Coffee tin inverted")
