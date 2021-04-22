@@ -54,8 +54,9 @@ A birthday present from a good friend.  The tree is sadly no longer there.  The 
 ![The original image](/images/solarcans/solarcan-original.jpg "original can")
 ![After being solarized](/images/solarcans/solarcan-original-coloured.jpg "original can solarized")
 
-I left a can attached to a tree for 16 months, from January 2020 until April 2021 (thanks lockdown!).  It must have slipped at some point, leading to the gap in the arcs.
+### Lockdown can
 
+I left a can attached to a tree for 16 months, from January 2020 until April 2021 (thanks lockdown!).  It must have slipped at some point, leading to the gap in the arcs.
 
 
 ![16 month exposure](/images/solarcans/farm-2020-2021-coloured.jpg "16 months of exposure")
