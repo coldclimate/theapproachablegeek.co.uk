@@ -26,14 +26,14 @@ cover:
 ---
 
 
-### A work in progress
+## A work in progress
 
 I'll update this more another day.
 
 I love messing about with cameras, mostly digital.  This page gathers together some of my experiments.  Some of them might get their own pages eventually.
 
 
-### Early timelapse experiments
+## Early timelapse experiments
 
 After I bought my first digital camera (A Fuji S500 I think) I spent ages glueing together [gPhoto2](http://www.gphoto.org/) to try and take timelape photos using a laptop + cron + a long USB cable.  I think I also used a cheap webcam at some point which is how I ended up timelapsing a racist novel being turned into mushrooms
 
@@ -41,7 +41,7 @@ After I bought my first digital camera (A Fuji S500 I think) I spent ages gluein
 
 Eventually I bought a camera especially for making timelapses, as documented on TODO link, and most of the results are early videos on up on my [Vimeo page](https://vimeo.com/user4123311)
 
-### Solarcans
+## Solarcans
 
 I've been messing around for a few years with [Solarcans](https://solarcan.co.uk/) and they are excellent and fun things.  I've handrolled a few too, with thanks to Sam at Solarcans, reusing various tins and cans.
 
@@ -81,3 +81,11 @@ Lots of water ingress.  I don't understand why there's not a clear trail here.
 
 ![Coffee tin as scanned](/images/solarcans/coffeecan-scaled.png "Coffee tin as scanned")
 ![Coffee tin inverted](/images/solarcans/coffeecan-inverted.png "Coffee tin inverted")
+
+## Sun Prints
+
+I was given some photo sensetive paper which is exposed in about 15 minutes in bright sunlight.  I've experimented with occluding the sun (with plants) and focusing the sun with a big chunk of glass.
+
+![Sun occluded exposure](/images/photoprint-leaves.jpg "Sun occluded exposure")
+![Sun focused exposure](/images/photoprint-glass.jpg "Sun focused exposure")
+
