@@ -36,12 +36,12 @@ It's acceptable to record something like an all hands meeting, so that the few w
 
 Meetings should have an agenda (what we plan to talk about) and minutes (what we decided and what actions we're taking).  These don't need to be heavy duty, you don't need to transcribe the whole thing, just write these 2 lists, and made them clear if you're expecting somebody to do something, then send them out to everybody you invited to the meeting.  We're aiming for clarity here, not who said what and who didn't agree at the time.
 
-Reasonably frequently if I can't attend a meeting I'll make it as "tentative" (thanks Office 265) "for the notes".  That way when the meeting is finished the organiser can hit reply-all and even though I wasn't there I'll understand what's going to happen and if I am expected to do anything.
+Reasonably frequently if I can't attend a meeting I'll make it as "tentative" (thanks Office 365) "for the notes".  That way when the meeting is finished the organiser can hit reply-all and even though I wasn't there I'll understand what's going to happen and if I am expected to do anything.
 
 
 ### ...Of discussions
 
-A few months ago I ran across the concept of those who "talk to think" and those who "think to talk", possibly in [Just Listen](https://www.amazon.co.uk/Just-Listen-Discover-Getting-Absolutely/dp/0814436471?dchild=1&keywords=just+listen&qid=1619872389&sr=8-1&linkCode=ll1&tag=hhkudac-21&linkId=33b4855dc2bcafeda2bf6cd338bac0d5&language=en_GB&ref_=as_li_ss_tl) in the context of meetings.  I've found I'm somebody who needs to "write to thing".  Creating big rambling text files helps me get my thoughts in order.  If I do this on a wiki page, open inside the company, people can chip in and correct me, or follow along out of interest or at least know that somebody is thinking about whatever that subject is.
+A few months ago I ran across the concept of those who "talk to think" and those who "think to talk", possibly in [Just Listen](https://www.amazon.co.uk/Just-Listen-Discover-Getting-Absolutely/dp/0814436471?dchild=1&keywords=just+listen&qid=1619872389&sr=8-1&linkCode=ll1&tag=hhkudac-21&linkId=33b4855dc2bcafeda2bf6cd338bac0d5&language=en_GB&ref_=as_li_ss_tl) in the context of meetings.  I've found I'm somebody who needs to "write to think".  Creating big rambling text files helps me get my thoughts in order.  If I do this on a wiki page, open inside the company, people can chip in and correct me, or follow along out of interest or at least know that somebody is thinking about whatever that subject is.
 
 However, these "brain dump" pages have their pitfalls.  They are not a plan.  They're not brilliantly structured and if you're not careful they can be accidentally taken as gospel, causing chaos.  To help mitigate that, I generally have a banner across the top, something along the lines of...
 
