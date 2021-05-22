@@ -68,6 +68,12 @@ The hole was too big.
 ![Mustard tin placement](/images/solarcans/mustard-placement.jpg "Mustard tin placement")
 ![Mustard tin exposure](/images/solarcans/mustard-invert.png "Mustard tin exposure")
 
+### Mustard tin Take Two
+
+I loaded and remounted the Colman's tin and left it for a couple of months.  It turns out I'd put the paper in back to front!  Luckily, a little water damage and light leakage meant it was partially exposed and some auto-lvelling in GIMP lead to this rather pleasant result.
+
+![Mustard tin placement](/images/solarcans/mustard-tin-leak.jpg "Four image panel with final result")
+
 ### Redbull can with 3 holes
 
 Multiple exposures are fun
