@@ -88,6 +88,17 @@ Lots of water ingress.  I don't understand why there's not a clear trail here.
 ![Coffee tin as scanned](/images/solarcans/coffeecan-scaled.png "Coffee tin as scanned")
 ![Coffee tin inverted](/images/solarcans/coffeecan-inverted.png "Coffee tin inverted")
 
+### Multihole Azera coffee tin
+
+I left this can up for a few months and it went really rusty.  When I opened it up the paper was stuck to the inside and needed careful peeling off.  There was only one house in line with the can, so the triple exposure was pretty satisfying.
+
+![Gone rusty](/images/solarcans/three-hole/rusty.jpg "Gone rusty")
+![Opening it up](/images/solarcans/three-hole/inside.jpg "Opening it up")
+![Liberated](/images/solarcans/three-hole/looking-good.jpg "Free!")
+![Inverted](/images/solarcans/three-hole/three-hole-invert.png "Inverted")
+![Solarised](/images/solarcans/three-hole/three-hole-solarized.png "Solarized")
+
+
 ## Sun Prints
 
 I was given some photo sensetive paper which is exposed in about 15 minutes in bright sunlight.  I've experimented with occluding the sun (with plants) and focusing the sun with a big chunk of glass.
