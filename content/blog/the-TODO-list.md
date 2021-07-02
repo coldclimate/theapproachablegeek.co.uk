@@ -165,7 +165,7 @@ The first twenty minutes of my day are almost always the same.  Over a coffee, a
 * Skim inbox flagging anything that needs reading better or replying to (at all, don't fall into the trap of dashing off a reply right then), then mark all as read and move to Archive.  I think this is something I cribbed from the [Inbox Zero](http://www.43folders.com/43-folders-series-inbox-zero).
 * Update yesterday's list and mark things I didn't do with ❌ and then if I still need to do them, copy the line into Today's list
 * Skim my calendar and Accept/Decline/tentative-for-the-notes all my meetings so my attendance is clear.  All things I'm going to go onto the today's list.
-* Skim Teams, do <1min replies then and there, otherwise throw a nite onto today's list (this is not a great mechanism, but probably says more about how we use Teams than teams functionality)
+* Skim Teams, do <1min replies then and there, otherwise throw an item onto today's list (this is not a great mechanism, but probably says more about how we use Teams than Teams functionality)
 * Rake over "This week I intend to" and add actions to Today or other days this week.
 * Work though flagged items in inbox and either deal with them then or send them to TODO list with a holding reply "I'll get this back to you later in the week, probably Tuesday"
 
