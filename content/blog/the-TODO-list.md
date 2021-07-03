@@ -45,7 +45,7 @@ It was around this time that I ran across the 2x2 grid of Important verses Urgen
 
 Other things I tried around this time include flagging/starring emails in my inbox was functional and works ok (I use it today as I'll explain below), using read/unread status is not, because one day the preview window will screw you over and you'll loose track of something important.
 
-For development and group work [PivotalTracker](https://www.pivotaltracker.com/) was great as a light weight backlog manager because it tracked velocity and had floating dates, great for building products, probably not so great for tracking other things. (Trello)[https://trello.com] was better for generic lists, less great for tracking development stuff.  Both were screamingly popular at the time and I still use Trello today in my personal life.
+For development and group work [PivotalTracker](https://www.pivotaltracker.com/) was great as a light weight backlog manager because it tracked velocity and had floating dates, great for building products, probably not so great for tracking other things. [Trello](https://trello.com) was better for generic lists, less great for tracking development stuff.  Both were screamingly popular at the time and I still use Trello today in my personal life.
 
 Having a pad of paper next to me that I write down things that needed doing and drew a little square next to them as actually *really* effective.
 
