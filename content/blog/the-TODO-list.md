@@ -179,6 +179,12 @@ My setup works for me, and bits of it might work for you, but it does take some 
 
 I guess what I've really done really is turn multiple sources of things that need doing, which happen over very difference cadences, into a trolley, stacked with dirty plates, and a shit box that needs hosing down every so often, in an environment where you're unlikely to be dinged with a hot frying pan.
 
+# Footnotes
+
+For those that love the command-line you might be interested in [todo.txt cli](https://github.com/todotxt/todo.txt-cli) - thanks to [Keiran Smith](https://keiran.scot/)
+
+If you're looking for a Mac app that's a nice combo of TODO list and Markdown, [TaskPaper](https://www.taskpaper.com/) seems like a good starting point - thanks to [Norm](https://marknormanfrancis.com/)
+
 
 
 
