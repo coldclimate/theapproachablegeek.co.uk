@@ -111,6 +111,23 @@ I manged to badly align it so it missed the sun.  The exposure is ambient lighti
 ![Not looking healthy](/images/solarcans/syrup_tin.jpg "Not looking health")
 ![Lovely coloured result](/images/solarcans/syrup_tin_solarized.jpg "Lovely coloured result")
 
+### Pringles tube
+
+I repurposed a Pringles tube with ductape and tin foil, then stuck it on my windowsill for a few months.  It was looking out though the stained glass.  I was hoping to capture the patterns but didn't.  
+![Pringles tube image](/images/solarcans/pringlestube-levelled-scalled.jpg "Pringles tube image")
+
+### Very secure long exposure
+I cabletied a standard Solarcan to the windowsill so it was super stable and left it for almost a year.  This is the same view as my very first one, but the tree has now gone.  Because it was so stable it caught amazing detail of the top of the conservatory.  I was very proud that this was featured for [SolarCan Day 2020](https://www.instagram.com/p/CQbd7m5nMvo/)
+![Very stable](/images/solarcans/back-of-house-2-adjusted.jpg "Very stable")
+
+
+### First coloured SolarCan
+
+I mounted a Nebula can for 6 months.  At some point it slipped, giving the double arch. The colours are blues and greys, rather than the usual sepia tones.
+![Nebula](/images/solarcans/nebula-colour-can-levels.jpg "Nebula")
+
+
+
 ## Sun Prints
 
 I was given some photo sensetive paper which is exposed in about 15 minutes in bright sunlight.  I've experimented with occluding the sun (with plants) and focusing the sun with a big chunk of glass.
