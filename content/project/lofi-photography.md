@@ -126,7 +126,12 @@ I cabletied a standard Solarcan to the windowsill so it was super stable and lef
 I mounted a Nebula can for 6 months.  At some point it slipped, giving the double arch. The colours are blues and greys, rather than the usual sepia tones.
 ![Nebula](/images/solarcans/nebula-colour-can-levels.jpg "Nebula")
 
+### Angel of the North 4 day exposure
 
+I've tried putting SolarCans at the Angel of The North before but they've not survived (too much passing footfall).  I figured it would be quiet over Christmas so I camouflaged a tin (brown parcel tape) and hid it in some bushes.  I've never tried such a short exposure (only a week) and didn't know what to expect.  The weather conspired against me and was foggy all week, the sun never visable, so not a single solar trail, but a lovely outline of the angel and bushes.
+
+![Angel of the North](/images/solarcans/2021-angel.jpg "Angel of the North")
+![Hidden Solarcam](/images/solarcans/2021-angel-cammo.jpg "Camoflaged can")
 
 ## Sun Prints
 
