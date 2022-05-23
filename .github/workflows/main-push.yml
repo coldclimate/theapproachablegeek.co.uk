@@ -15,8 +15,6 @@ jobs:
           chmod a+x hugo
       - name: Build
         run: ./hugo  --cleanDestinationDir  --gc
-      - name: test
-        run: vendor/htmltest/htmltest ./docs/ -c ./.htmltest
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
