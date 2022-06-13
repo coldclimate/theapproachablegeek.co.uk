@@ -56,12 +56,13 @@ The process is pretty simple, but frustrating when it doesn't work, because all 
 * Every camera is setup to do motion detect, save to the sdcard and retain for 10 days.
 * A little RaspberryPi with a huge 120GB card runs as a sync server.  Every night it pulls all the video files for each camera and drops them into named directories.  Right now they're just stacking up, in the future I'll cut thumbnails, build a retention policy, etc etc.
 * The sync script is naff because it pulls everything for that day, there's no sync state.  That's because when I try to use rsycn I got some crypting error messages (below) that I've not figured out yet.  Lucky ssh is there so bash and keys to the rescue.
-* ``` The error messages:
+``` The error messages:
 sh: rsync: not found
 rsync: connection unexpectedly closed (0 bytes received so far) [Receiver]
 rsync error: error in rsync protocol data stream (code 12) at io.c(228) [Receiver=3.2.3]
 ```
-* ```
+
+```
 The shonky syncing script
 
 
