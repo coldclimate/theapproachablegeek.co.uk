@@ -133,6 +133,16 @@ I've tried putting SolarCans at the Angel of The North before but they've not su
 ![Angel of the North](/images/solarcans/2021-angel.jpg "Angel of the North")
 ![Hidden Solarcam](/images/solarcans/2021-angel-cammo.jpg "Camoflaged can")
 
+### One from a famous place
+
+One of my friends (unnamed right now until I ask him) helped me place two Solarcans on the roof of [The Baltic Centre for Contemporary Art](https://baltic.art/) in November 2023.  In June of 2024 these were taken down and processed.
+
+Unfortunately the one facing South West towards the Tyne Bridge failed because I'd forgotten to take the sticker off it!  However the one facing North East (how apt) captured this image, including the roof, the river and the Baltic Quay Apartments.
+
+
+![6 months of the roof of the Baltic](/images/solarcans/2024-june-baltic-coloured.jpg "6 months of the roof of the Baltic")
+
+
 ## Sun Prints
 
 I was given some photo sensetive paper which is exposed in about 15 minutes in bright sunlight.  I've experimented with occluding the sun (with plants) and focusing the sun with a big chunk of glass.
