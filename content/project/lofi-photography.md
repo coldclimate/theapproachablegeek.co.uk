@@ -142,6 +142,13 @@ Unfortunately the one facing South West towards the Tyne Bridge failed because I
 
 ![6 months of the roof of the Baltic](/images/solarcans/2024-june-baltic-coloured.jpg "6 months of the roof of the Baltic")
 
+### Puck at EMFCamp24
+
+I planned to do a series of these over the course of EMF, but I forgot (too many excitng things to see) and so I ended up getting one image, from a Puck I cable tied to a gazebo before I ran off to see something.  The end result doesn't catch much of the sun but it's a surprisingly sharp image of the tents.  I think it was only up for 36 hours
+
+
+![36 hours of EMFCamp24](/images/solarcans/2024-emfcamp-puck.jpg) "36 hours of EMFCamp24")
+
 
 ## Sun Prints
 
