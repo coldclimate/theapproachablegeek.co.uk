@@ -24,3 +24,4 @@ jobs:
       - name: Copy files to the test website with the AWS CLI
         run: |
             aws s3 sync ./public/ s3://www.theapproachablegeek.co.uk --acl public-read --delete
+            aws cloudfront create-invalidation --distribution-id E30FGCZ7WDCUBE   --paths "/*"
