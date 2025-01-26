@@ -1,6 +1,6 @@
 ---
 title: "Lo-Fi Photography"
-date: 2021-03-21T11:30:03+00:00
+date: 2025-01-25T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["project", "photography", "diy"]
