@@ -133,7 +133,7 @@ I've tried putting SolarCans at the Angel of The North before but they've not su
 ![Angel of the North](/images/solarcans/2021-angel.jpg "Angel of the North")
 ![Hidden Solarcam](/images/solarcans/2021-angel-cammo.jpg "Camoflaged can")
 
-### One from a famous place
+### Three from a famous place
 
 One of my friends (unnamed right now until I ask him) helped me place two Solarcans on the roof of [The Baltic Centre for Contemporary Art](https://baltic.art/) in November 2023.  In June of 2024 these were taken down and processed.
 
@@ -141,6 +141,15 @@ Unfortunately the one facing South West towards the Tyne Bridge failed because I
 
 
 ![6 months of the roof of the Baltic](/images/solarcans/2024-june-baltic-coloured.jpg "6 months of the roof of the Baltic")
+
+#### Xmas 2024 update
+
+When I got the can back with the sticker still on it I asked for it to be put back in place (much dented) and a fresh can installed next to it.  These were in place from June 2024 until nearly Christmas when I got them back.  The two images are facinatingly different.
+
+![6 more months of the roof of the Baltic](/images/solarcans/2024-baltic-1-flipped.jpg "6 more months of the roof of the Baltic")
+![6 more months of the roof of the Baltic](/images/solarcans/2024-baltic-2-flipped.jpg "6 more months of the roof of the Baltic")
+![two battered cans, one had been on the roof for almost a year](/images/solarcans/2024-baltic-second-battered.jpg "two battered cans, one had been on the roof for almost a year")
+
 
 ### Puck at EMFCamp24
 
