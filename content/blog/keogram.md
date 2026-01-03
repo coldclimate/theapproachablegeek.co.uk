@@ -14,9 +14,9 @@ disableHLJS: false
 searchHidden: true
 ---
 
-Many many years ago I stood in a queue at MakeFaire Newcastle (maybe around 2010?) and chatted to an American chap, name long forgotten, who mentioned his friend who had pointed a digital camera at the sky somewhere in the US (Bay Area?) and was taking a picture every minute to create a giant art installation.  I did eventually track them down (they blogged about it) but I can't find the link or remeber any of the names invlved.
+Many many years ago I stood in a queue at MakeFaire Newcastle (maybe around 2010?) and chatted to an American chap, name long forgotten, who mentioned his friend who had pointed a digital camera at the sky somewhere in the US (Bay Area?) and was taking a picture every minute to create a giant art installation.  I did eventually track them down (they blogged about it) but I can't find the link or remeber any of the names involved.
 
-10 years later I was living in a house that made this more achievable, so I gave it a got.   I reused some of the sctipts and kit from [my over engineered greenhouse for growing chilli](https://www.theapproachablegeek.co.uk/blog/raspberrypi-greenhouse-timelapse-graphs/) and thought the power of ductape and cardboard boxes, mounted a decent webcam to our spare bedroom window, angling it to avoid any of the neighbors.  An old laptop provided the computing power, and with a combination of BASH, cron and ffmpeg, it took a picture, every minute, for a year.
+10 years later I was living in a house that made this more achievable, so I gave it a go.   I reused some of the sctipts and kit from [my over engineered greenhouse for growing chilli](https://www.theapproachablegeek.co.uk/blog/raspberrypi-greenhouse-timelapse-graphs/) and thought the power of ductape and cardboard boxes, mounted a decent webcam to our spare bedroom window, angling it to avoid any of the neighbors.  An old laptop provided the computing power, and with a combination of BASH, cron and ffmpeg, it took a picture, every minute, for a year.
 
 The camera is mounted inside the house, which makes reflections off the glass of the window frustrating.  I tried mounting the camera outdoors, but I don't have a suitable enclosure to keep it dry enough in the North East weather.
 
@@ -26,7 +26,8 @@ Every night, a set of scripts fire up and produce a few different things...
 
 * A mosiac of the day, one row per hour
 * A timelapse of the day, 24 frames a second, makes for a rather neat 60 second runtime
-* A keograph (I think this is the right name) of the year so far, one row per day.
+* A strip for the day, 1440 pictures in a row.
+* A keograph (I think this is the right name) of the year so far, one row per day, using the strips compiled above.
 
 Because I screwed up the timezones, the keograph has an annoying step out in it but...I rather laike it.  I can't explain the black stripe on it around April - I guess the camera wasn't taking pictures for some reason.
 
@@ -52,9 +53,10 @@ cp ${DIR}/${DIR_DATE}/$PIC_DATE.jpg ${DIR}/latest.jpg
 Very ugly, but functional.  A few notes...
 
 * fswebcam might not be perfect, but it worked with my camera right out of the box so I'm running with it.
-* the "delay 1" is to give the camera a change to settle down
+* the "delay 1" is to give the camera a change to settle down so things aren't over exposed
 * Video4Linux2 commands where handy to work out how my camera was presenting itself
 * There's probably a smarter and cleaner way to do the directory stuff, but this works and some of my other scripts that are invoked by cron have suffered, so I now just use this
+* Previous versions of this script backed up to AWS S3, but it's dead to me these days.
 
 
 ### Nightly compile
