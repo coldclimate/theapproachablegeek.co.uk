@@ -100,5 +100,9 @@ The annoying white dots are a reflection on the glass of the window I intent to 
 ![Every minute of 2025](/images/2025-keograph.jpg)
 
 
+## With thanks
+Lastly, thanks to Cees Bassa for [posting their much higher quality keograph](https://mastodon.social/@cgbassa/115821827638199300) and thus prompting me to get mine sorted.
+
+
 
 
