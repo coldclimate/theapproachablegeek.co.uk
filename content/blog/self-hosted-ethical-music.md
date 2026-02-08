@@ -43,17 +43,22 @@ In the house I now have...
 * 1 old (secondhand) laptop - machine2 (an old MacBook Pro that currently powers SkyCam)
 * 2 new external 2TB USB drives 
 
-And they're running..
+Both laptops are running Ubuntu 24.04.3 LTS (server edition, no need for a GUI).
 
-* Ubuntu 24.04.3 LTS (server edition, no need for a GUI)
+
+machine1 is running...
+
 * [Navidrome](https://www.navidrome.org) for streaming music
 * [TailScale](https://tailscale.com) for VPNing in from the outside world
 * [SyncThing](https://syncthing.net) for keeping the two machines in sync
 * Some shonky Bash scripts for backing up to [Upcloud](https://signup.upcloud.com/?promo=NPW276) (referal link, $25 of credit each way)
 
-I already had an old MacBook Pro 2015 running linux that is setup for powering my SkyCam, so that was a good start.  This machine will be my inhouse backup.
 
-To act as my "primary" home server I bought a second hand Dell Vostro 15 5501, with an i5 chip, 16GB RAM and an internal 512GB SSD drive from [jamiescomputers](https://www.ebay.co.uk/str/jamiescomputers) on ebay, and to quote them " Jamie’s Computers is a social enterprise. 100% of our proceeds are donated to The Society of St James; Hampshire's largest homelessness charity."
+machine2 is also running SyncThing
+
+I already had an old MacBook Pro 2015 running linux that is setup for powering my SkyCam, so that was a good start.  This machine (machine2) will be my inhouse backup.
+
+To act as my "primary" home server (machine1) I bought a second hand Dell Vostro 15 5501, with an i5 chip, 16GB RAM and an internal 512GB SSD drive from [jamiescomputers](https://www.ebay.co.uk/str/jamiescomputers) on ebay, and to quote them " Jamie’s Computers is a social enterprise. 100% of our proceeds are donated to The Society of St James; Hampshire's largest homelessness charity."
 
 I bought this machine specifically because it is [Ubuntu Certified](https://ubuntu.com/certified/202002-27735).  Whilst most laptops will happily run Linux, I've lost enough time fighting with drivers over the last 20 years that I decided to increase my chances of not loosing a load of weekend to this project.
 
