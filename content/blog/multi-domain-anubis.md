@@ -1,7 +1,7 @@
 ---
 date: "2025-08-23"
-title: Running Caddy and Anubis over multiple domains to deny AI Bots
-tags: ["ai", "ethics", "hosting"]
+title: Running Caddy and Anubis over multiple domains to default AI Bots
+tags: ["ai", "ethics", "hosting", "selfhosting"]
 author: Me
 showToc: false
 TocOpen: false
@@ -52,7 +52,7 @@ This unlocks launching independant instances of Caddy like this (using private a
 systemctl restart caddy-private.service
 ```
 
-## `public-caddy` config
+## Public Caddy
 
 The public version of Caddy is there to do all the SSL/HTTPS automagic that Caddy is so good for, and then to hand off all the traffic to Anubis.   This leads to some reasonably simple if irritatingly verbose config.
 
@@ -67,12 +67,12 @@ reverse_proxy localhost:8923
 
 ## Anubis config
 
-Anubis docs are pretty verbose and I struggled a bit.  This is what I ended up with in `/etc/anubis/default`
+Anubis docs are pretty verbose.  This is what I ended up with in `/etc/anubis/default`
 
 Key bits:
-* BIND port matches the one that `public-caddy` is forwarding onto
-* TARGET port matches the one that `private-caddy` is bound onto
-* REDIRECT_DOMAINS macthes the list of domains in `public-caddy` but with commas
+* BIND port matches the one that Public Caddy is forwarding onto
+* TARGET port matches the one that private Caddy is bound onto
+* REDIRECT_DOMAINS macthes the list of domains in Public Caddy but with commas
 
 ```
 
@@ -92,14 +92,14 @@ You can check that Anubis is up and running by poking it with `nc localhost 8923
 
 
 
-## `private-caddy` config
+## Private Caddy
 
 My private Caddy config is based on my rather verbose exiting config, but with tweaks to set up...
 
 * Not doing and of the HTTPS automagic
 * Using the `X-Forwarded-Host` header to route to the right file_server backend
 
-I use the very simple file_server backend for Caddy, I'm pretty sure that this would work with more complex backends.   
+I use the very simple file_server backend for Caddy, I'm pretty sure that this would work with more compelx backends.   
 
 
 ```
@@ -112,7 +112,7 @@ I use the very simple file_server backend for Caddy, I'm pretty sure that this w
         header X-Forwarded-Host www.domain1.com
     }
 
-    handle @wwwdomain1com {
+    handle @wwwdomain1 {
     root * /var/www/wwwdomain1com/
     file_server
         encode gzip
@@ -122,7 +122,7 @@ I use the very simple file_server backend for Caddy, I'm pretty sure that this w
         header X-Forwarded-Host www.domain2.com
     }
 
-    handle @wwwdomain2com {
+    handle @wwwdomain2 {
     root * /var/www/wwwdomain2com/
     file_server
         encode gzip
@@ -132,7 +132,7 @@ I use the very simple file_server backend for Caddy, I'm pretty sure that this w
         header X-Forwarded-Host www.domain3.com
     }
 
-    handle @wwwdomain3com {
+    handle @wwwdomain3 {
     root * /var/www/wwwdomain3com/
     file_server
         encode gzip
@@ -143,4 +143,4 @@ I use the very simple file_server backend for Caddy, I'm pretty sure that this w
 
 ## The result
 
-I am once again good to write up silly food past, safe in the knowledge that my content is harder to scrape.  I've no idea if it'll affect my search engine rankings, and frankly my dear, I don't give a damn.  OpenAI, Grok and all these others can go fuck themselves. 
+I am once again good to write up silly food past, safe in the knowledge that my content is harder to scrape.  I've no idea if it'll affect my search engine rankings, and frankly my dear, I don't give a damn.
