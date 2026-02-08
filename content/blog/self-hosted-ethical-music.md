@@ -33,6 +33,7 @@ Where does my music come from?
 1. I ripped all my CD collection.   It took a while, and sorting out the metadata was a massive pain in the arse, but [Music Brainz Picsrd](https://picard.musicbrainz.org) did a great job
 2. I've started buying stuff though BandCamp, especially [On BandCamp Friday](https://isitbandcampfriday.com)
 3. I still use and pay for [MixCloud](https://www.mixcloud.com) who I hope do the right thing.  All my conversations with their engineers many years ago give me hope they do.
+4. At some point I'll dig into [qobuz](https://www.qobuz.com/gb-en/discover) and see if they are actually as good as people seem to think
 
 ## The setup
 
