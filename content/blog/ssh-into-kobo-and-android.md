@@ -20,7 +20,7 @@ My motivation: be able to sync files from two closed-source devices I own over s
 
 
 # Kobo eReader
-It's a good little device and unlocking ssh was pretty easy.
+It's a good little device and unlocking ssh was pretty easy.  Please note not all Kobo devices and versions of their firmware will support this.  I beleive (thanks [misc](https://social.ephaone.org/@misc/statuses/01KHGWD9H1N4J0ABZAY79MY30T)) only version 4.44 and above will.  You can find more about Kobo firmware over here on [pgaskin](https://pgaskin.net/KoboStuff/kobofirmware.html)
 
 1. Mount it over USB
 2. Show hidden files (command+shift+fullstop on a Mac)
