@@ -1,6 +1,12 @@
 <div class="social-icons">
     {{- range . -}}
-    <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me"
-        title="{{ .name | humanize }}">{{ partial "svg.html" . }}</a>
+    {{ if eq .name "twitter" }}
+            <s><a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me"
+        title="{{ .name | humanize }}">{{ partial "svg.html" . }}</a></s><a href="https://www.bbc.co.uk/news/articles/cdxz995vd9ko">Screw Elon</a>
+    {{ else }}
+        <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me"
+        title="{{ .name | humanize }}">{{ partial "svg.html" . }}</a> 
+    {{ end }}
+
     {{- end -}}
 </div>
