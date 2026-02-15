@@ -1,7 +1,7 @@
 ---
 date: "2026-02-15"
 title: How to SSH into your Kobo ereader and android phone
-tags: ["ssh"]
+tags: ["ssh", "ethics"]
 author: Me
 showToc: false
 TocOpen: false
@@ -38,6 +38,8 @@ That files actually contains the instructions to do this (well done Kobo!)
 The first time you connect you'll be asked to set a password.
 
 Now you can happily ssh in, rsync books back and forth and mess on until your heart is content, as you should be able to with a device you own.
+
+Note: your books will end up in `/mnt/storage` - unimaginative, but very simple.
 
 # Android phone
 
