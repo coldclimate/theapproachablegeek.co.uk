@@ -159,6 +159,21 @@ I planned to do a series of these over the course of EMF, but I forgot (too many
 ![36 hours of EMFCamp24](/images/solarcans/2024-emfcamp-puck.jpg) "36 hours of EMFCamp24")
 
 
+### Pucks at EMFCamp26
+
+In 2026 I tried to do Pucks well at EMF and it got it's own [Little page](https://emftins.coldclimate.co.uk).  Sadly it didn't ome out brilliantly, but I'll make plans for 2028.
+
+
+### Pucks on holiday in 2026
+
+I took the puck with me to Menorca for a week and taped it up about the hotel (thanks to the staff!)   A few successes, but the last few days were pretty cloudy.  I also forgot how wide the view is.
+
+![Puck scan from Menorca 1](/images/solarcans/2026-oct-menorca-1.jpg) "Puck scan from Menorca 1")
+![Puck scan from Menorca 2](/images/solarcans/2026-oct-menorca-2.jpg) "Puck scan from Menorca 2")
+![Puck scan from Menorca 3](/images/solarcans/2026-oct-menorca-3.jpg) "Puck scan from Menorca 3")
+![Puck scan from Menorca 4](/images/solarcans/2026-oct-menorca-4.jpg) "Puck scan from Menorca 4")
+![Puck scan from Menorca 5](/images/solarcans/2026-oct-menorca-5.jpg) "Puck scan from Menorca 5")
+
 ## Sun Prints
 
 I was given some photo sensetive paper which is exposed in about 15 minutes in bright sunlight.  I've experimented with occluding the sun (with plants) and focusing the sun with a big chunk of glass.
